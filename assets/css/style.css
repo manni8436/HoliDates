@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Redressed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -38,4 +39,10 @@ h1, h2 {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#map {
+    position: fixed !important;
+    height: 100% !important;
+    width: 100% !important;
 }
