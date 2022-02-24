@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto Serif; sans-serif;
+    font-weight: 300;
+    color: #212121;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Redressed; sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #DB073D;
+}
