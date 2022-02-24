@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Roboto Serif; sans-serif;
+    font-family: Roboto Serif, sans-serif;
     font-weight: 300;
     color: #212121;
 }
@@ -15,8 +15,27 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Redressed; sans-serif;
+    font-family: Redressed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #DB073D;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
 }
