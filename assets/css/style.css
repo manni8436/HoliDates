@@ -34,8 +34,28 @@ h1, h2 {
     float: right;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: Redressed, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #DB073D;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #DB073D;
+}
+
+.active {
+    border-bottom: 1px solid #DB073D;
 }
