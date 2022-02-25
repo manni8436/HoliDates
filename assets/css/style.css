@@ -85,7 +85,30 @@ h3 {
     text-align: center;
     }
 
-    .getaways-row {
-        clear: both;
-        display: table;
+.getaways-row {
+    clear: both;
+    display: table;
     }
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: #DB073D;
+    }
+
+.social-media-icons {
+    text-align: center;
+}
+
+.social-media-icons > li {
+    display: inline;
+}
+
+.social-media-icons i {
+    color: white;
+    font-size: 160%;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
