@@ -12,6 +12,16 @@ body {
     color: #212121;
 }
 
+/* body container */
+
+.container {
+    max-width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -27,6 +37,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 0;
 }
 
 h3 {
@@ -53,7 +64,7 @@ h3 {
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 #menu a {
@@ -77,6 +88,7 @@ h3 {
 #welcome-message {
     width: 45%;
     float: left;
+    margin-left: 0;
 }
 
 #welcome-message h2 {
@@ -84,13 +96,21 @@ h3 {
 }
 
 #quotes {
-    width: 45%;
-    float: right;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+   
+    background-color: rgba(248, 248, 255, 0.5);
+    bottom: 10px;
+    right: 120px;
+    position: absolute;
+   
 }
 
 #google-map {
-    width: 33%;
-    text-align: center;
+    clear: both;
+    width: 100%;
+    margin-top: 30px;
 }
 
 /* images */
