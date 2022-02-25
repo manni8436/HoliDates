@@ -99,10 +99,6 @@ footer {
     background-color: #DB073D;
     }
 
-footer div {
-    
-}
-
 .social-media-icons {
     text-align: center;
 }
@@ -112,17 +108,24 @@ footer div {
 }
 
 .social-media-icons i {
-    color: white;
     font-size: 160%;
-    padding: 5px;
-    margin: 5px;
-    float: right;
+    color: white;
 }
 
 footer h3 {
-    color: white;
     font-size: 140%;
-    padding: 5px;
-    margin: 5px;
-    float: left;
 }
+
+.footer-column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    }
+
+.footer-row {
+    clear: both;
+    display: table;
+    }
