@@ -19,6 +19,9 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #DB073D;
+    text-align: center;
+    padding: 5px;
+    font-size: 140%;
 }
 
 #logo {
@@ -29,12 +32,16 @@ h1, h2 {
 h3 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
+    padding: 5px;
+    font-size: 120%;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 160%;
+    font-weight: 600;
     letter-spacing: 4px;
     float: right;
 }
@@ -65,22 +72,62 @@ h3 {
     border-bottom: 1px solid #DB073D;
 }
 
+/* sections */
+
+#welcome-message {
+    width: 45%;
+    float: left;
+}
+
+#welcome-message h2 {
+    text-align: left;
+}
+
+#quotes {
+    width: 45%;
+    float: right;
+}
+
+#google-map {
+    width: 33%;
+    text-align: center;
+}
+
 /* images */
 
 #hero-image {
     width:100%;
-    height:600px;
-    background: no-repeat center center;
+    height:800px;
+    background: url('https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') no-repeat center bottom;
+    overflow: hidden;
 }
 
-.getaways-column {
+/* columns and rows */ 
+.column {
     float: left;
     width: 30%;
     padding: 5px;
     text-align: center;
     }
 
-    .getaways-row {
-        clear: both;
-        display: table;
+.row {
+    clear: both;
+    display: table;
     }
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: #DB073D;
+    color: white
+    }
+
+    .social-media-icons > li {
+    display: inline;
+    }
+
+.social-media-icons i {
+    font-size: 160%;
+    color: white;
+}
