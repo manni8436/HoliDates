@@ -19,6 +19,8 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #DB073D;
+    text-align: center;
+    padding: 5px;
 }
 
 #logo {
@@ -29,12 +31,15 @@ h1, h2 {
 h3 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
+    padding: 5px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 140%;
+    font-weight: 600;
     letter-spacing: 4px;
     float: right;
 }
