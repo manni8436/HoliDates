@@ -79,9 +79,18 @@ h3 {
     float: left;
 }
 
+#welcome-message h2 {
+    text-align: left;
+}
+
 #quotes {
     width: 45%;
     float: right;
+}
+
+#google-map {
+    width: 33%;
+    text-align: center;
 }
 
 /* images */
