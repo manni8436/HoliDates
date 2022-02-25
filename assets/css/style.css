@@ -102,14 +102,15 @@ h3 {
     overflow: hidden;
 }
 
-.getaways-column {
+/* columns and rows */ 
+.column {
     float: left;
     width: 30%;
     padding: 5px;
     text-align: center;
     }
 
-.getaways-row {
+.row {
     clear: both;
     display: table;
     }
@@ -119,35 +120,14 @@ h3 {
 footer {
     height: 100px;
     background-color: #DB073D;
+    color: white
     }
 
-.social-media-icons {
-    text-align: center;
-}
-
-.social-media-icons > li {
+    .social-media-icons > li {
     display: inline;
-}
+    }
 
 .social-media-icons i {
     font-size: 160%;
     color: white;
 }
-
-footer h3 {
-    font-size: 140%;
-}
-
-.footer-column {
-    float: left;
-    width: 30%;
-    padding: 5px;
-    text-align: center;
-    color: white;
-    margin: 5px;
-    }
-
-.footer-row {
-    clear: both;
-    display: table;
-    }
