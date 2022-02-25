@@ -21,6 +21,7 @@ h1, h2 {
     color: #DB073D;
     text-align: center;
     padding: 5px;
+    font-size: 140%;
 }
 
 #logo {
@@ -33,12 +34,13 @@ h3 {
     letter-spacing: 4px;
     text-align: center;
     padding: 5px;
+    font-size: 120%;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 140%;
+    font-size: 160%;
     font-weight: 600;
     letter-spacing: 4px;
     float: right;
@@ -97,6 +99,10 @@ footer {
     background-color: #DB073D;
     }
 
+footer div {
+    
+}
+
 .social-media-icons {
     text-align: center;
 }
@@ -111,4 +117,12 @@ footer {
     padding: 5px;
     margin: 5px;
     float: right;
+}
+
+footer h3 {
+    color: white;
+    font-size: 140%;
+    padding: 5px;
+    margin: 5px;
+    float: left;
 }
