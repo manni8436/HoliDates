@@ -26,6 +26,11 @@ h1, h2 {
     font-size: 280%;
 }
 
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
 /* navigation links */
 
 #menu {
@@ -68,9 +73,14 @@ h1, h2 {
     background: no-repeat center center;
 }
 
-.getaway-images {
-    width:30%;
-    height: 200px;
-    background: no-repeat center center;
-    display: inline-block;
-}
+.getaways-column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    }
+
+    .getaways-row {
+        clear: both;
+        display: table;
+    }
