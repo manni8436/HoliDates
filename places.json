@@ -1,0 +1,15 @@
+[
+    {
+    "place": "Paris",
+    "description": "test",
+    "lat": "40.822633855656974",
+    "lng": "14.425354516052282",
+    "mark": "Mount Vesuvius"
+  },
+  {
+    "place": "Rio de Janeiro",
+    "lat": "40.822633855656974",
+    "lng": "14.425354516052282",
+    "mark": "Rio de Janeiro"
+  }
+]
