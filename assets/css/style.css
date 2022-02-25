@@ -41,7 +41,7 @@ h2 {
     margin-right: 30px;
 }
 
-#map {
+#map, .map {
     position: fixed !important;
     height: 100% !important;
     width: 100% !important;

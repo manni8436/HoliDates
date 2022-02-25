@@ -3,16 +3,16 @@
     "place": "Paris",
     "description": "Paris description",
     "image": "paris.jpg",
-    "lat": "40.822633855656974",
-    "lng": "14.425354516052282",
+    "lat": 40.822633855656974,
+    "lng": 14.425354516052282,
     "mark": "PAris"
   },
   {
     "place": "Rio de Janeiro",
     "description": "Rio description",
     "image": "rio.jpg",
-    "lat": "40.822633855656974",
-    "lng": "14.425354516052282",
+    "lat": 40.822633855656974,
+    "lng": 14.425354516052282,
     "mark": "Rio de Janeiro"
   }
 ]
