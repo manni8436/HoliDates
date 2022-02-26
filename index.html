@@ -28,10 +28,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script src="assets/js/maps.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -70,36 +70,34 @@
     <section>
         <div id="home">
             <div id="hero-image">
-                <div id="welcome-message">
-                    <h2>Welcome!</h2>
-                    <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
-                        Welcome
-                        message here. Welcome message here. Welcome message here. Welcome message here. Welcome
-                        message
-                        here. Welcome message here. Welcome message here. Welcome message here. Welcome message
-                        here.
-                        Welcome message here. Welcome message here. Welcome message here. </p>
-                </div>
-                <div id="quotes">
-                    <p>Floating quotes here. Floating quotes here. Floating quotes here. Floating quotes here.
-                        Floating
-                        quotes here. Floating quotes here. Floating quotes here. Floating quotes here. Floating
-                        quotes
-                        here. </p>
+                <div class="welcome-container">
+                    <div id="welcome-message">
+                        <h2>Welcome!</h2>
+                        <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
+                            Welcome
+                            message here. Welcome message here. Welcome message here. Welcome message here. Welcome
+                            message
+                            here. Welcome message here. Welcome message here. Welcome message here. Welcome message
+                            here.
+                            Welcome message here. Welcome message here. Welcome message here. </p>
+                    </div>
+                    <div id="quotes" class="quotes">
+                        <p> </p>
+                    </div>
                 </div>
             </div>
         </div>
-    <br>
+        <br>
 
     </section>
-        <div id="destination-picker">
-            <h2>Destination Picker</h2>
-            <p>Where to? Click on one of the pins on the map below to find out more about your next destination!</p>
-            <div class= "map-container">
-                <div id="map">
-                </div>
+    <div id="destination-picker">
+        <h2>Destination Picker</h2>
+        <p>Where to? Click on one of the pins on the map below to find out more about your next destination!</p>
+        <div class="map-container">
+            <div id="map">
             </div>
         </div>
+    </div>
     </section>
     <br>
 
@@ -206,11 +204,11 @@
         </div>
     </section>
 
- <!-- Modal for place details -->
+    <!-- Modal for place details -->
     <div class="modal " id="detailsModal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
-                
+
             </div>
         </div>
     </div>
@@ -291,6 +289,8 @@
         async></script>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/5366bdfdf4.js" crossorigin="anonymous"></script>
+    <script src="assets/js/floatingText.js" crossorigin="anonymous"></script>
+
 
 
 </body>
