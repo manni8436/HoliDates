@@ -24,7 +24,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Redressed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -55,6 +56,12 @@ h3 {
     margin-right: 30px;
 }
 
+/* Map page style */ 
+
+#map, .map {
+    position: fixed !important;
+    height: 100% !important;
+    width: 100% !important;
 #menu a {
     text-decoration: none;
     font-family: Redressed, sans-serif;

@@ -1,0 +1,18 @@
+[
+    {
+    "place": "Paris",
+    "description": "Paris description",
+    "image": "paris.jpg",
+    "lat": 48.85917532062315, 
+    "lng": 2.2939511780492063,
+    "mark": "Paris"
+  },
+  {
+    "place": "Rio de Janeiro",
+    "description": "Rio description",
+    "image": "rio.jpg",
+    "lat": 40.822633855656974,
+    "lng": 14.425354516052282,
+    "mark": "Rio de Janeiro"
+  }
+]
