@@ -131,9 +131,10 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 12px;
   text-align: left;
   color: white;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 #welcome-message h2{
@@ -144,6 +145,7 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
+  
   max-width: 400px;
   color: white;
 }
