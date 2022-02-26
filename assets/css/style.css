@@ -22,7 +22,7 @@ body {
   margin-right: auto;
 }
 
-/* headings and logo */
+/* headings and paragraphs */
 
 h1,
 h2 {
@@ -41,6 +41,10 @@ h3 {
   text-align: center;
   padding: 5px;
   font-size: 120%;
+}
+
+p {
+    padding: 5px;
 }
 
 /* navigation links */
@@ -111,6 +115,10 @@ h3 {
 #map {
   width: 33%;
   text-align: center;
+}
+
+#destination-picker p {
+    text-align: center;
 }
 
 /* images */
