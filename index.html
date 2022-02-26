@@ -41,7 +41,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid max-container">
                 <a id="menu-site-name" class="navbar-brand" href="#home">Site Name</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-nav-items"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,7 +51,10 @@
                             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#getaways">getaways</a>
+                            <a class="nav-link" href="#destination-picker">Destination Picker</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#getaways">Getaways</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#tips-and-tricks">Tips & Tricks</a>
@@ -65,34 +68,39 @@
     <section>
         <div id="home">
             <div id="hero-image">
-                <div class="welcome-container">
-                    <div id="welcome-message" class="m-3 m-xl-4">
-                        <h2>Welcome!</h2>
-                        <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
-                            Welcome
-                            message here. Welcome message here. Welcome message here. Welcome message here. Welcome
-                            message
-                            here. Welcome message here. Welcome message here. Welcome message here. Welcome message
-                            here.
-                            Welcome message here. Welcome message here. Welcome message here. </p>
-                    </div>
-
-                    <div id="quotes" class="m-3 m-xl-4">
-                        <p>Floating quotes here. Floating quotes here. Floating quotes here. Floating quotes here.
-                            Floating
-                            quotes here. Floating quotes here. Floating quotes here. Floating quotes here. Floating
-                            quotes
-                            here. </p>
-                    </div>
+                <div id="welcome-message">
+                    <h2>Welcome!</h2>
+                    <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
+                        Welcome
+                        message here. Welcome message here. Welcome message here. Welcome message here. Welcome
+                        message
+                        here. Welcome message here. Welcome message here. Welcome message here. Welcome message
+                        here.
+                        Welcome message here. Welcome message here. Welcome message here. </p>
+                </div>
+                <div id="quotes">
+                    <p>Floating quotes here. Floating quotes here. Floating quotes here. Floating quotes here.
+                        Floating
+                        quotes here. Floating quotes here. Floating quotes here. Floating quotes here. Floating
+                        quotes
+                        here. </p>
                 </div>
             </div>
-            <div class="map-container">
+        </div>
+    <br>
+
+    </section>
+        <div id="destination-picker">
+            <h2>Destination Picker</h2>
+            <p>Where to? Click on one of the pins on the map below to find out more about your next destination!</p>
+            <div class= "map-container">
                 <div id="map">
                 </div>
             </div>
         </div>
     </section>
     <br>
+
     <section id="getaways" class="max-container">
         <h2>Getaways</h2>
         <h3>Romantic Getaways</h3>
