@@ -25,163 +25,145 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div>
-
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Logo</h1>
-            </a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="#home" class="active">Home</a>
-                    </li>
-                    <li>
-                        <a href="#getaways">Getaways</a>
-                    </li>
-                    <li>
-                        <a href="#tips-and-tricks">Tips & Tricks</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <section>
-            <div id="home">
-                <div id="hero-image">
-                    <div id="welcome-message">
-                        <h2>Welcome!</h2>
-                        <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
-                            Welcome
-                            message here. Welcome message here. Welcome message here. Welcome message here. Welcome
-                            message
-                            here. Welcome message here. Welcome message here. Welcome message here. Welcome message
-                            here.
-                            Welcome message here. Welcome message here. Welcome message here. </p>
-                    </div>
-                    <div id="quotes">
-                        <p>Floating quotes here. Floating quotes here. Floating quotes here. Floating quotes here.
-                            Floating
-                            quotes here. Floating quotes here. Floating quotes here. Floating quotes here. Floating
-                            quotes
-                            here. </p>
-                    </div>
-
-                </div>
-                <div id="google-map">
-                    Google map API
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">Site Name</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#getaways">getaways</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tips-and-tricks">Tips & Tricks</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <br>
-        <section id="getaways" class="max-container">
-            <h2>Getaways</h2>
-            <h3>Romantic Getaways</h3>
-            <div class="d-flex gap-3">
+        </nav>
+    </header>
 
-                <div class="col-12 col-sm-6 col-md-4">
-                    <a href="https://unsplash.com/">
-                        <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                            alt="Couple watching city sunset" width="100%">
-                    </a>
+    <section>
+        <div id="home">
+            <div id="hero-image">
+                <div id="welcome-message">
+                    <h2>Welcome!</h2>
+                    <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
+                        Welcome
+                        message here. Welcome message here. Welcome message here. Welcome message here. Welcome
+                        message
+                        here. Welcome message here. Welcome message here. Welcome message here. Welcome message
+                        here.
+                        Welcome message here. Welcome message here. Welcome message here. </p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <a href="https://unsplash.com/">
-                        <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                            alt="Couple watching city sunset" width="100%">
-                    </a>
+                <div id="quotes">
+                    <p>Floating quotes here. Floating quotes here. Floating quotes here. Floating quotes here.
+                        Floating
+                        quotes here. Floating quotes here. Floating quotes here. Floating quotes here. Floating
+                        quotes
+                        here. </p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <a href="https://unsplash.com/">
-                        <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                            alt="Couple watching city sunset" width="100%">
-                    </a>
-                </div>
+
             </div>
-            <h3>Honeymoon Getaways</h3>
-            <div class="d-flex gap-3">
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <a href="https://unsplash.com/">
-                        <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                            alt="Couple watching city sunset" width="100%">
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <a href="https://unsplash.com/">
-                        <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                            alt="Couple watching city sunset" width="100%">
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <a href="https://unsplash.com/">
-                        <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                            alt="Couple watching city sunset" width="100%">
-                    </a>
-                </div>
+            <div id="google-map">
+                Google map API
             </div>
-        </section>
+        </div>
+    </section>
+    <br>
+    <section id="getaways" class="max-container">
+        <h2>Getaways</h2>
+        <h3>Romantic Getaways</h3>
+        <div class="d-flex gap-3">
 
-        <section id="tips-and-tricks">
-            <div>
-                <h2>Tips & Tricks</h2>
-                <p>Lots and lots of tips and tricks here. Lots and lots of tips and tricks here. Lots and lots of tips
-                    and
-                    tricks here. Lots and lots of tips and tricks here. Lots and lots of tips and tricks here. Lots and
-                    lots
-                    of tips and tricks here. Lots and lots of tips and tricks here. Lots and lots of tips and tricks
-                    here.
-                    Lots and lots of tips and tricks here. Lots and lots of tips and tricks here.</p>
+            <div class="col-12 col-sm-6 col-md-4">
+                <a href="https://unsplash.com/">
+                    <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="Couple watching city sunset" width="100%">
+                </a>
             </div>
-        </section>
+            <div class="col-12 col-sm-6 col-md-4">
+                <a href="https://unsplash.com/">
+                    <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="Couple watching city sunset" width="100%">
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <a href="https://unsplash.com/">
+                    <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="Couple watching city sunset" width="100%">
+                </a>
+            </div>
+        </div>
+        <h3>Honeymoon Getaways</h3>
+        <div class="d-flex gap-3">
 
-        
-        <footer class="p-3">
-            <div class="max-container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <div class="col-12 col-sm-6 col-md-4">
+                <a href="https://unsplash.com/">
+                    <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="Couple watching city sunset" width="100%">
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <a href="https://unsplash.com/">
+                    <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="Couple watching city sunset" width="100%">
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <a href="https://unsplash.com/">
+                    <img src="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="Couple watching city sunset" width="100%">
+                </a>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-6 col-sm-4 d-none d-sm-block">
+    <section id="tips-and-tricks">
+        <div>
+            <h2>Tips & Tricks</h2>
+            <p>Lots and lots of tips and tricks here. Lots and lots of tips and tricks here. Lots and lots of tips
+                and
+                tricks here. Lots and lots of tips and tricks here. Lots and lots of tips and tricks here. Lots and
+                lots
+                of tips and tricks here. Lots and lots of tips and tricks here. Lots and lots of tips and tricks
+                here.
+                Lots and lots of tips and tricks here. Lots and lots of tips and tricks here.</p>
+        </div>
+    </section>
+
+
+    <footer class="p-3">
+        <div class="max-container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+
+            <div class="col-6 col-sm-4 d-none d-sm-block">
+                <p><em>© Site Name 2022</em></p>
+            </div>
+            <div class="col-12 col-sm-4 order-3 order-sm-2">
+                <h3>Team Name</h3>
+            </div>
+
+            <div class="col-12 d-block d-sm-none d-flex justify-content-between">
+                <div class="">
                     <p><em>© Site Name 2022</em></p>
                 </div>
-                <div class="col-12 col-sm-4 order-3 order-sm-2">
-                    <h3>Team Name</h3>
-                </div>
-
-                <div class="col-12 d-block d-sm-none d-flex justify-content-between">
-                    <div class="">
-                        <p><em>© Site Name 2022</em></p>
-                    </div>
-                    <div>
-                        <!-- Social links display mobile -->
-                        <ul class="social-media-icons text-end">
-                            <li>
-                                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                                    aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                        class="fa-brands fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                        class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.github.com/" target="_blank" rel="noopener"
-                                    aria-label="Visit our GitHub page (opens in a new tab)"><i
-                                        class="fa-brands fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <!-- Social links -->
-                <div class="col-6 col-sm-4 order-2 order-sm-3 text-end d-none d-sm-block">
-                    <ul class="social-media-icons">
+                <div>
+                    <!-- Social links display mobile -->
+                    <ul class="social-media-icons text-end">
                         <li>
                             <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                                 aria-label="Visit our Facebook page (opens in a new tab)"><i
@@ -201,8 +183,30 @@
                 </div>
 
             </div>
-            <p class="text-center m-0">Alexa Emanuel Fernanda Fimber Raivis Vladimir</p>
-        </footer>
+            <!-- Social links -->
+            <div class="col-6 col-sm-4 order-2 order-sm-3 text-end d-none d-sm-block">
+                <ul class="social-media-icons">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our GitHub page (opens in a new tab)"><i
+                                class="fa-brands fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <p class="text-center m-0">Alexa Emanuel Fernanda Fimber Raivis Vladimir</p>
+    </footer>
 
     </div>
     <!-- font awesome script -->
