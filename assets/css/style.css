@@ -12,14 +12,10 @@ body {
     color: #212121;
 }
 
-/* body container */
-
-.container {
-    max-width: 90%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
+.max-container {
+    max-width: 1920px;
     margin-left: auto;
+    margin-right: auto;
 }
 
 /* headings and logo */
@@ -138,7 +134,7 @@ h3 {
 /* footer */
 
 footer {
-    height: 100px;
+    min-height: 100px;
     background-color: #DB073D;
     color: white
     }
