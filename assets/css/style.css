@@ -7,13 +7,17 @@
 }
 
 .dark-text {
-  color: #212121;
+  color: #697177;
+}
+
+.card-text {
+  color: #697177;
 }
 
 body {
   font-family: Roboto Serif, sans-serif;
   font-weight: 300;
-  color: #212121;
+  color: #697177;
 }
 
 .max-container {
@@ -28,11 +32,12 @@ h1,
 h2 {
   font-family: Redressed, sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
   letter-spacing: 4px;
-  color: #db073d;
+  color: #697177;
   text-align: center;
   padding: 5px;
-  font-size: 140%;
+  font-size: 160%;
 }
 
 h3 {
@@ -60,6 +65,21 @@ p {
   margin-right: 30px;
 }
 
+#menu a {
+  text-decoration: none;
+  font-family: Redressed, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #697177;
+  float: left;
+  font-size: 140%;
+}
+
+#menu a:hover {
+  color: #F7BFB7;
+  border-bottom: 1px solid #F7BFB7;
+}
+
 /* Map page style */
 
 #map,
@@ -73,27 +93,8 @@ p {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
-  width: 92.5%;
+  width: 100%;
   margin: 5px auto;
-  /* border: 10px solid aliceblue; */
-}
-
-#menu a {
-  text-decoration: none;
-  font-family: Redressed, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #db073d;
-  float: left;
-  font-size: 140%;
-}
-
-#menu a:hover {
-  border-bottom: 1px solid #db073d;
-}
-
-.active {
-  border-bottom: 1px solid #db073d;
 }
 
 /* sections */
@@ -133,8 +134,8 @@ p {
   left: 0;
   padding: 12px;
   text-align: left;
-  color: white;
-  max-width: 600px;
+  color: #fff;
+  max-width: 400px;
 }
 
 #welcome-message h2{
@@ -147,7 +148,7 @@ p {
   right: 0;
   
   max-width: 400px;
-  color: white;
+  color: #fff;
 }
 
 /* columns and rows */
@@ -167,8 +168,8 @@ p {
 
 footer {
   min-height: 100px;
-  background-color: #db073d;
-  color: white;
+  background-color: #697177;
+  color: #fff
 }
 
 .social-media-icons > li {
@@ -177,7 +178,11 @@ footer {
 
 .social-media-icons i {
   font-size: 160%;
-  color: white;
+  color: #fff;
+}
+
+.social-media-icons i:hover {
+  color: #F7BFB7;
 }
 
 .team-name-links a {
@@ -186,12 +191,11 @@ footer {
 }
 
 .team-name-links a:hover {
-  color: #000;
+  color: #F7BFB7;
 }
 
 @media only screen and (max-width: 900px) {
     .map-container{
-        width: 100%;
         height: 30vh;
         margin:0;
         border:5px solid aliceblue;
