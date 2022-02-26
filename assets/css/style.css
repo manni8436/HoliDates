@@ -6,6 +6,10 @@
     border: none;
 }
 
+.dark-text {
+    color:#212121;
+}
+
 body {
     font-family: Roboto Serif, sans-serif;
     font-weight: 300;
