@@ -40,8 +40,7 @@ function initMap() {
           map.setZoom(17);
           map.setCenter(marker.getPosition());
           window.setTimeout(function() {map.setZoom(pos);},3000);
-          window.open(place.url, '_blank');
-          console.log(place.url)
+          $('#detailsModal').modal('show');
         });
 
         
