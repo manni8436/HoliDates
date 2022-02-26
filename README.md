@@ -1,11 +1,11 @@
-# FOR THE LOVE OF FOOD
+# HoliDates
 
 ![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS3-Project) ( change this to hackathon name )
 ![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS3-Project) ( change this to hackathon name )
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS3-Project) ( change this to hackathon name )
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS3-Project) ( change this to hackathon name )
 
-[Here is a link to the final project](https://for-the-love-of-food.herokuapp.com/)
+[Here is a link to the final project](https://manni8436.github.io/love-hackathon/)
 
 ## INITIAL DESIGN
 
@@ -56,6 +56,12 @@
 
 ### USER STORIES
 
++ As a user, I would like to be able to …
+
+1.  easily navigate throughout the website;
+2.  check diffent place options to a romantic trip on map;
+3.  be able to check place details when click on map mark;
+4.  be able to find information about romantic and honeymoon gateways;
 
 #### CLIENT GOALS
 
@@ -67,11 +73,53 @@
 
 ### COLOR SCHEME
 
+The Colour scheme was generated using hero image, and [colors](https://coolors.co/) to generate the colour pallete.
+
+<p align="center" width="100%">
+  <img width="33%" src="assets/images/lovehackathoncolourpalette.png">
+</p>
+
 ## WIREFRAMES
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported into a pdf format, which can be viewed [here](assets/wireframes/love-hackathon.pdf)
 
 ## FEATURES
+
+### Navbar 
+
++ Fixed Navbar with Home, Destination Picker, Getaways and tips options to allow the user easy access to all sections. 
+
+<p align="center" width="100%">
+  <img width="90%" src="">
+</p>
+
++ Colapsed navbar on smaller devices to wrap in all options and assure better navbar design.
+<p align="center" width="100%">
+  <img width="33%" src=""></p>
+
+###  Destination Picker section 
+
++ Google maps with markers on listed romantic destinatons
+<p align="center" width="100%">
+  <img width="50%" src=""></p>
+
++ When users click on a destination, they can check the place with a zoom in and a pop up modal with destination details shown on the centre of the page.
+ 
+<p align="center" width="100%">
+  <img width="50%" src=""></p>
+
+###  Getaways section 
+
++ Divided into two - Romantic and Honeymoon - users can find several destinations accordingly with their interest. 
+ 
+<p align="center" width="100%">
+  <img width="50%" src=""></p>
+
+###  Tips and Tricks section 
+
++  
+<p align="center" width="100%">
+  <img width="50%" src=""></p>
 
 ### FUTURE IMPLEMENTATIONS
 
@@ -85,8 +133,26 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 [Back To Top](#for-the-love-of-food)
 
-### PROGRAMS USED
+### FRAMEWORS, LIBRARIES AND PROGRAMS USED
 
+#### Am I Responsive
+
+[Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#final-design) section.
+
+#### Bootstrap 4.6
+
+[Bootstrap] was used to assist with the style and responsiveness.
+
+#### Favicon generator
+
+[Favicon](https://favicon.io/) was used to create favicon for the website.
+
+#### Firefox Developer Tools
+
+[Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
+
+[Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Githu
+t
 #### Git
 
 [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
@@ -98,14 +164,6 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 #### GitHub
 
 [GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod.
-
-#### Am i Responsive
-
-[Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#final-design) section.
-
-#### Firefox Developer Tools
-
-[Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
 
 #### Lighthouse
 
@@ -212,10 +270,16 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 [Back To Top](#for-the-love-of-food)
 
-### IMAGES
+### MEDIA
+
+- All pictures and images used in this project are from [Unsplash](https://unsplash.com/).
 
 ### TEXT CONTENT
 
 ### Code Credit
 
 ## ACKNOWLEDGEMENTS
+
+- [Stack Overflow](https://stackoverflow.com/) as a valuable resource for solving a several issues.
+- [W3schools](https://www.w3schools.com/) for general reference.
+- [Google Developer](https://developers.google.com/maps/documentation) for general reference about google maps API.
