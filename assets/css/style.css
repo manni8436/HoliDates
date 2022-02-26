@@ -61,8 +61,6 @@ h3 {
 #map,
 .map {
   position: static !important;
-  height: 30% !important;
-  width: 30% !important;
 }
 
 .map-container {
@@ -71,9 +69,9 @@ h3 {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
-  width: 70%;
+  width: 92.5%;
   margin: 5px auto;
-  border: 10px solid aliceblue;
+  /* border: 10px solid aliceblue; */
 }
 
 #menu a {

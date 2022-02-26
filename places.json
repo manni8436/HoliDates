@@ -5,7 +5,8 @@
     "image": "paris.jpg",
     "lat": 48.85917532062315, 
     "lng": 2.2939511780492063,
-    "mark": "Paris"
+    "mark": "Paris",
+    "url": "maps.html"
   },
   {
     "place": "Rio de Janeiro",
@@ -13,6 +14,7 @@
     "image": "rio.jpg",
     "lat": 40.822633855656974,
     "lng": 14.425354516052282,
-    "mark": "Rio de Janeiro"
+    "mark": "Rio de Janeiro",
+    "url": "maps.html"
   }
 ]
