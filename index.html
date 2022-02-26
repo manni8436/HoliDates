@@ -26,7 +26,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    </script>
+    <script src="assets/js/maps.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
@@ -79,21 +80,22 @@
                 </div>
 
             </div>
-            <div id="google-map">
-                Google map API
-            </div>
+            <div class= "map-container">
+            <div id="map">
+            Google map API
+            </div></div>
         </div>
     </section>
     <br>
     <section id="getaways" class="max-container">
         <h2>Getaways</h2>
         <h3>Romantic Getaways</h3>
-        <div class="d-flex flex-wrap justify-content-center mx-2 mx-lg-3" >
+        <div class="d-flex flex-wrap justify-content-center mx-2 mx-lg-3">
 
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="p-2 p-lg-3">
                     <div class="card">
-                        
+
                         <a href="https://unsplash.com/" class="text-decoration-none">
                             <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
                             <div class="card-body dark-text">
@@ -257,8 +259,13 @@
     </footer>
 
     </div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoQyGOox7d4-RmKOK2vm8qDCezkvFOc4A&callback=initMap"
+        async></script>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/5366bdfdf4.js" crossorigin="anonymous"></script>
+
 
 </body>
 
