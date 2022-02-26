@@ -51,7 +51,7 @@ function initMap() {
           </div>                       
           `;
           document.querySelector(".modal-content").innerHTML = output;
-          $('#detailsModal').modal('show');
+          setTimeout(function() {$('#detailsModal').modal('show')}, 3000);
         });
       }
     };

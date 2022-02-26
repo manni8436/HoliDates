@@ -1,7 +1,7 @@
 [
   {
   "place": "Paris",
-  "description": "Paris description",
+  "description": "Paris is like nowhere else when it comes to love. This is a city that encourages all in it to be free, light of spirit and carefree. Venice, Rome and New York all lay claim to being romantic, but Paris has its own special aura, because the City of Light is also the City of Love. Whether it's lounging on the grass outside The Museum of Romantic Life, purring sweet nothings under the Eiffel Tower or embracing in front of 'The Wall of I Love You', Paris is the ultimate place of the heart.",
   "image": "assets/images/paris-france.jpg",
   "lat": 48.85917532062315, 
   "lng": 2.2939511780492063,
@@ -9,7 +9,7 @@
 },
 {
   "place": "Rome",
-  "description": "Rome description",
+  "description": "From boat rides under the stars, to scenic rooftop drinks and magical opera performances, there are countless things to do in Rome that are romantic. If you’re travelling to the city as part of a couple, then there are a few key places to visit in Rome that really get the heart beating faster. Do any of the following with your partner and you’ll be sure to feel the love…",
   "image": "assets/images/rome-italy.jpg",
   "lat": 41.90234235603637,
   "lng": 12.453958156221665,
@@ -17,7 +17,7 @@
 },
 {
   "place": "Bruges",
-  "description": "Bruges description",
+  "description": "Swans on the canals, a maze of medieval streets, the clatter of hooves, hidden parks, charming courtyards... there are no jarring notes to disturb this historic picture. Whether you picnic in Koningin Astridpark (Queen Astrid Park), linger on the Boniface Bridge, or savour the peace of the Beguinage, in Bruges romance always hangs in the air. You’re sure to fall in love.",
   "image": "assets/images/bruges-belgium.jpg",
   "lat": 51.21175173841297,
   "lng": 3.2269135610842294,
@@ -25,7 +25,7 @@
 },
 {
   "place": "Barcelona",
-  "description": "Barcelona description",
+  "description": "Barcelona will leave you feeling warm and fuzzy inside. From strolling hand in hand through the old-world streets of the Gothic Quarter to cozying up in the corner of a lively tapas bar, there are plenty of ways to enjoy the city as a couple.",
   "image": "assets/images/barcelona-spain.jpg",
   "lat": 41.40449718616649, 
   "lng": 2.1759463123186724,
@@ -41,7 +41,7 @@
 },
 {
   "place": "Salzburg",
-  "description": "Salzburg description",
+  "description": "Salzburg was one of many locations that caught our eye when carefully selecting our ideal honeymoon destination last Christmas. We craved somewhere unique, special, romantic, and it wasn’t long before we had our hearts intertwined around Austria - Salzburg in particular.",
   "image": "assets/images/salzburg-austria.jpg",
   "lat": 47.80960703606472, 
   "lng": 13.056429699317384,
@@ -49,10 +49,18 @@
 },
 {
   "place": "Venice",
-  "description": "Venice description",
+  "description": "Venice, city of love, who would doubt it! Love affairs and famous lovers, the entire history of Venice is intimately linked to Cupid. Romanticism and eroticism, sacred love or secular love, Cupid reigns supreme here, always ready to shoot his arrows of intoxicating perfumes. ",
   "image": "assets/images/venice-italy.jpg",
   "lat": 45.438675395075585, 
   "lng": 12.332396264611916,
   "mark": "Venice"
+},
+{
+  "place": "Cliffs of Moher",
+  "description": "The cliffs are one of the most popular tourist destinations in Ireland and topped a list of attractions in 2006 by receiving almost one million visitors at the official visitor centre. With additional visitors to other locales included there are around 1.5 million a year. Since 2011, they have formed a part of the Burren and Cliffs of Moher Geopark, one of a family of geotourism destinations throughout Europe that are members of the European Geoparks Network and also recognized by UNESCO. The cliffs are also a signature point on the official Wild Atlantic Way tourist trail.",
+  "image": "assets/images/cliffsofmoher.jpg",
+  "lat": 52.97179460966114,  
+  "lng": -9.430882404498012,
+  "mark": "Cliffs of Moher"
 }
 ]
