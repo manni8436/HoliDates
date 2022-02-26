@@ -1,20 +1,58 @@
 [
-    {
-    "place": "Paris",
-    "description": "Paris description",
-    "image": "paris.jpg",
-    "lat": 48.85917532062315, 
-    "lng": 2.2939511780492063,
-    "mark": "Paris",
-    "url": "maps.html"
-  },
   {
-    "place": "Rio de Janeiro",
-    "description": "Rio description",
-    "image": "rio.jpg",
-    "lat": 40.822633855656974,
-    "lng": 14.425354516052282,
-    "mark": "Rio de Janeiro",
-    "url": "maps.html"
-  }
+  "place": "Paris",
+  "description": "Paris description",
+  "image": "assets/images/paris-france.jpg",
+  "lat": 48.85917532062315, 
+  "lng": 2.2939511780492063,
+  "mark": "Paris"
+},
+{
+  "place": "Rome",
+  "description": "Rome description",
+  "image": "assets/images/rome-italy.jpg",
+  "lat": 41.90234235603637,
+  "lng": 12.453958156221665,
+  "mark": "Rome"
+},
+{
+  "place": "Bruges",
+  "description": "Bruges description",
+  "image": "assets/images/bruges-belgium.jpg",
+  "lat": 51.21175173841297,
+  "lng": 3.2269135610842294,
+  "mark": "Bruges"
+},
+{
+  "place": "Barcelona",
+  "description": "Barcelona description",
+  "image": "assets/images/barcelona-spain.jpg",
+  "lat": 41.40449718616649, 
+  "lng": 2.1759463123186724,
+  "mark": "Barcelona"
+},
+{
+  "place": "Lucerne",
+  "description": "Lucerne description",
+  "image": "assets/images/lucerne-switzerland.jpg",
+  "lat": 41.40449718616649, 
+  "lng": 2.1759463123186724,
+  "mark": "Barcelona"
+},
+{
+  "place": "Salzburg",
+  "description": "Salzburg description",
+  "image": "assets/images/salzburg-austria.jpg",
+  "lat": 47.80960703606472, 
+  "lng": 13.056429699317384,
+  "mark": "Barcelona"
+},
+{
+  "place": "Venice",
+  "description": "Venice description",
+  "image": "assets/images/venice-italy.jpg",
+  "lat": 45.438675395075585, 
+  "lng": 12.332396264611916,
+  "mark": "Venice"
+}
 ]
