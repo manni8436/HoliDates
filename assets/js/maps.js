@@ -31,9 +31,16 @@ function initMap() {
         const marker = new google.maps.Marker({
           position: coord,
           map: map,
-          title: 'Hello World!'
+        });        
+       
+        marker.addListener("click", () => {
+          var pos = map.getZoom();
+          map.setZoom(17);
+          map.setCenter(marker.getPosition());
+          window.setTimeout(function() {map.setZoom(pos);},3000);
         });
      }
+     
     };
   }
 }
