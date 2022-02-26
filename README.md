@@ -275,6 +275,11 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 - All pictures and images used in this project are from [Unsplash](https://unsplash.com/).
 
 ### TEXT CONTENT
+Venice description - https://www.visit-venice-italy.com/history-love-venice-italy.htm
+Salzburg description - https://traveltoaustria.info/romantic-encounters-in-salzburg/
+BArcelona description -https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/
+Bruges description - https://www.visitbruges.be/en/romantic-hotspots-2
+Rome description - https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/
 
 ### Code Credit
 
