@@ -68,6 +68,8 @@
 
 ## WIREFRAMES
 
+Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported into a pdf format, which can be viewed [here](assets/wireframes/love-hackathon.pdf)
+
 ## FEATURES
 
 ### FUTURE IMPLEMENTATIONS
