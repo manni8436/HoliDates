@@ -132,3 +132,12 @@ footer {
     font-size: 160%;
     color: white;
 }
+
+.team-name-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.team-name-links a:hover {
+    color: #000;
+}
