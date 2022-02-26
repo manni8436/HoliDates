@@ -7,9 +7,10 @@ function initMap() {
         lng: 11.607449487355048
       },
       zoom: 4,
-      mapTypeId: google.maps.MapTypeId.HYBRID
-    
+      tilt:45,
+      mapTypeId: google.maps.MapTypeId.HYBRID    
   });
+  map.setTilt(45);
 
   let http = new XMLHttpRequest();
 
@@ -31,9 +32,23 @@ function initMap() {
         const marker = new google.maps.Marker({
           position: coord,
           map: map,
-          title: 'Hello World!'
+          
+        });        
+       
+        marker.addListener("click", () => {
+          var pos = map.getZoom();
+          map.setZoom(17);
+          map.setCenter(marker.getPosition());
+          window.setTimeout(function() {map.setZoom(pos);},3000);
+          window.open(place.url, '_blank');
+          console.log(place.url)
         });
+
+        
+
+
      }
+     
     };
   }
 }
