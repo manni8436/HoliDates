@@ -30,11 +30,6 @@ h1, h2 {
     font-size: 140%;
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-}
-
 h3 {
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -46,18 +41,12 @@ h3 {
 /* navigation links */
 
 #menu {
-    font-size: 160%;
     font-weight: 600;
     letter-spacing: 4px;
-    float: right;
-}
-
-#menu, #logo {
-    line-height: 75px;
 }
 
 #menu li {
-    float: left;
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -68,6 +57,8 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #DB073D;
+    float: left;
+    font-size: 140%;
 }
 
 #menu a:hover {
