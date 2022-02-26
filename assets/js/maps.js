@@ -27,17 +27,7 @@ function initMap() {
           lat: place.lat,
           lng: place.lng
         };
-          
-        let output = `
-                <div class="modal-header">
-                    <h2 class="modal-title fw-bold">${place.place}</h5>                    
-                </div>
-                <div class="modal-body">
-                <img class="w-100" src="${place.image}" alt="${place.image}">
-                    <p class="p-2 text-center">${place.description}.</p>
-                </div>                       
-      `;
-        document.querySelector(".modal-content").innerHTML = output;
+       
 
         const marker = new google.maps.Marker({
           position: coord,
@@ -51,6 +41,16 @@ function initMap() {
           window.setTimeout(function () {
             map.setZoom(pos);
           }, 3000);
+          let output = `
+          <div class="modal-header">
+              <h2 class="modal-title fw-bold">${place.place}</h5>                    
+          </div>
+          <div class="modal-body">
+          <img class="w-100" src="${place.image}" alt="${place.image}">
+              <p class="p-2 text-center">${place.description}.</p>
+          </div>                       
+          `;
+          document.querySelector(".modal-content").innerHTML = output;
           $('#detailsModal').modal('show');
         });
       }
