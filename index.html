@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,47 +10,256 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!--Facebook, Linkedin, Google-->
-    <meta property="og:type" content="article"/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:url" content=""/>
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:url" content="" />
     <meta name="image" property="og:image" content="">
-    <meta property="og:image:alt" content="An image showing this website on multiple screen sizes"/>
+    <meta property="og:image:alt" content="An image showing this website on multiple screen sizes" />
     <!--Twitter-->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
     <meta name="twitter:image:alt" content="An image showing this website on multiple screen sizes">
+    <!--Links and Title-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Logo</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="maps.html">Honeymoon</a>
-                </li>
-                <li>
-                    <a href="#">Tips & Tricks</a>
-                </li>
-            </ul>
+    <header id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a id="menu-site-name" class="navbar-brand" href="#home">Site Name</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="menu-nav-items" class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#getaways">getaways</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tips-and-tricks">Tips & Tricks</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
     <section>
-        Image carousel
+        <div id="home">
+            <div id="hero-image">
+                <div id="welcome-message">
+                    <h2>Welcome!</h2>
+                    <p>Welcome message here. Welcome message here. Welcome message here. Welcome message here.
+                        Welcome
+                        message here. Welcome message here. Welcome message here. Welcome message here. Welcome
+                        message
+                        here. Welcome message here. Welcome message here. Welcome message here. Welcome message
+                        here.
+                        Welcome message here. Welcome message here. Welcome message here. </p>
+                </div>
+                <div id="quotes">
+                    <p>Floating quotes here. Floating quotes here. Floating quotes here. Floating quotes here.
+                        Floating
+                        quotes here. Floating quotes here. Floating quotes here. Floating quotes here. Floating
+                        quotes
+                        here. </p>
+                </div>
+
+            </div>
+            <div id="google-map">
+                Google map API
+            </div>
+        </div>
     </section>
-    <section>
-        Romantic trip suggestions
+    <br>
+    <section id="getaways" class="max-container">
+        <h2>Getaways</h2>
+        <h3>Romantic Getaways</h3>
+        <div class="d-flex flex-wrap justify-content-center mx-2 mx-lg-3" >
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="p-2 p-lg-3">
+                    <div class="card">
+                        
+                        <a href="https://unsplash.com/" class="text-decoration-none">
+                            <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
+                            <div class="card-body dark-text">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="p-2 p-lg-3">
+                    <a href="https://unsplash.com/" class="text-decoration-none">
+                        <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
+                        <div class="card-body dark-text">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="p-2 p-lg-3">
+                    <a href="https://unsplash.com/" class="text-decoration-none">
+                        <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
+                        <div class="card-body dark-text">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+
+        <h3>Honeymoon Getaways</h3>
+        <div class="d-flex flex-wrap justify-content-center mx-2 mx-lg-3">
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="p-2 p-lg-3">
+                    <a href="https://unsplash.com/" class="text-decoration-none">
+                        <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
+                        <div class="card-body dark-text">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="p-2 p-lg-3">
+                    <a href="https://unsplash.com/" class="text-decoration-none">
+                        <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
+                        <div class="card-body dark-text">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="p-2 p-lg-3">
+                    <a href="https://unsplash.com/" class="text-decoration-none">
+                        <img src="https://unsplash.it/300/200" class="card-img-top" alt="...">
+                        <div class="card-body dark-text">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        Social media links
+
+    <section id="tips-and-tricks">
+        <div>
+            <h2>Tips & Tricks</h2>
+            <p>Lots and lots of tips and tricks here. Lots and lots of tips and tricks here. Lots and lots of tips
+                and
+                tricks here. Lots and lots of tips and tricks here. Lots and lots of tips and tricks here. Lots and
+                lots
+                of tips and tricks here. Lots and lots of tips and tricks here. Lots and lots of tips and tricks
+                here.
+                Lots and lots of tips and tricks here. Lots and lots of tips and tricks here.</p>
+        </div>
+    </section>
+
+
+    <footer class="p-3">
+        <div class="max-container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+
+            <div class="col-6 col-sm-4 d-none d-sm-block">
+                <p><em>© Site Name 2022</em></p>
+            </div>
+            <div class="col-12 col-sm-4 order-3 order-sm-2">
+                <h3>Team Name</h3>
+            </div>
+
+            <div class="col-12 d-block d-sm-none d-flex justify-content-between">
+                <div class="">
+                    <p><em>© Site Name 2022</em></p>
+                </div>
+                <div>
+                    <!-- Social links display mobile -->
+                    <ul class="social-media-icons text-end">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our GitHub page (opens in a new tab)"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Social links -->
+            <div class="col-6 col-sm-4 order-2 order-sm-3 text-end d-none d-sm-block">
+                <ul class="social-media-icons">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our GitHub page (opens in a new tab)"><i
+                                class="fa-brands fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <p class="text-center m-0 team-name-links">
+            <a href="https://github.com/AlexaH88" target="_blank" rel="noopener">Alexa</a>
+            <a href="https://github.com/manni8436" target="_blank" rel="noopener">Emanuel</a>
+            <a href="https://github.com/nandabritto" target="_blank" rel="noopener">Fernanda</a>
+            <a href="https://github.com/uchenna631" target="_blank" rel="noopener">Fimber</a>
+            <a href="https://github.com/Raivis80" target="_blank" rel="noopener">Raivis</a>
+            <a href="https://github.com/Vlad-404" target="_blank" rel="noopener">Vladimir</a></p>
     </footer>
+
+    </div>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/5366bdfdf4.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
