@@ -285,6 +285,8 @@ All text content used in this project can be seen below.
 - [Barcelona description](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
 - [Bruges description](https://www.visitbruges.be/en/romantic-hotspots-2)
 - [Rome description](https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/)
+- [CLiffs of Moher description](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
+- [Lucerne description](https://www.nationalgeographic.com/travel/article/how-to-spend-a-perfect-weekend-in-lucerne)
 
 ### Code Credit
 
