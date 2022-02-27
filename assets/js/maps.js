@@ -48,7 +48,7 @@ function initMap() {
           </div>
           <div id="map"></div>
           <div class="modal-body">
-          <img class="w-100" src="${place.image}" alt="${place.image}">
+          <img class="w-100" src="${place.image}" alt="Image of ${place.place}">
               <p class="p-2 text-center">${place.description}.</p>
               <hr>
               <p class="m-0 fw-bold text-center">Tips:</p>
