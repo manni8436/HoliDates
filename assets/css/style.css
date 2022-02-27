@@ -245,6 +245,17 @@ footer {
   color: #F7BFB7;
 }
 
+#piped a:after {
+  content: "|";
+  margin: 0 10px;
+  color:#fff
+}
+
+#piped a:last-child:after {
+  content: '';
+  margin: 0 10px;
+}
+
 @media only screen and (max-width: 900px) {
     .map-container{
         height: 30vh;
