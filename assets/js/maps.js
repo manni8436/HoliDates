@@ -54,6 +54,9 @@ function initMap() {
           <div class="modal-body">
           <img class="w-100" src="${place.image}" alt="${place.image}">
               <p class="p-2 text-center">${place.description}.</p>
+              <hr>
+              <p class="m-0 fw-bold text-center">Tips:</p>
+              <p class="small p-2 px-5">${place.tips}</p>
           </div>                       
           `;
           // open modal wih place data afte 3 seconds
