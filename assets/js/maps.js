@@ -128,8 +128,9 @@ let showModal = (image, place, description, tips) => {
       <hr>
       <p class="m-0 fw-bold text-center">Tips:</p>
       <p class="small p-2 px-5">${tips}</p>
+      <p class="small p-2 px-5">(Tap/Click outside the window to close)</p>
   </div>
   `
-  console.log(modalContent)
-  document.querySelector(".modal-content").innerHTML = modalContent
+  document.querySelector('.modal-content').innerHTML = modalContent
+  $('#detailsModal').modal('show')
 }
