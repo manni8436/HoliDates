@@ -276,13 +276,27 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 All text content used in this project can be seen below.
 
-- [Venice description](https://www.visit-venice-italy.com/history-love-venice-italy.htm)
-- [Salzburg description](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
-- [Barcelona description](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
-- [Bruges description](https://www.visitbruges.be/en/romantic-hotspots-2)
-- [Rome description](https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/)
-- [Cliffs of Moher description](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
-- [Lucerne description](https://www.nationalgeographic.com/travel/article/how-to-spend-a-perfect-weekend-in-lucerne)
++ Description
+
+- [Venice ](https://www.visit-venice-italy.com/history-love-venice-italy.html/)
+- [Salzburg ](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
+- [Barcelona ](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
+- [Bruges ](https://www.visitbruges.be/en/romantic-hotspots-2)
+- [Rome ](https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/)
+- [Cliffs of Moher ](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
+- [Lucerne ](https://www.nationalgeographic.com/travel/article/how-to-spend-a-perfect-weekend-in-lucerne)
+
+
++ Tips
+
+- [Paris](https://worldinparis.com/visiting-paris-tips)
+- [Venice](https://theculturetrip.com/europe/italy/articles/the-top-10-things-to-do-and-see-in-venice/)
+- [Salzburg](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
+- [Barcelona](https://theculturetrip.com/europe/spain/articles/11-essential-tips-for-first-timers-in-barcelona/)
+- [Bruges](https://theculturetrip.com/europe/belgium/articles/10-things-to-know-before-you-go-to-bruges/)
+- [Rome](https://theculturetrip.com/europe/italy/articles/the-best-things-to-do-in-rome/)
+- [Cliffs of Moher](https://culturetourist.com/destinations/ireland/day-trip-from-dublin-cliffs-of-moher-galway/)
+- [Lucerne](https://theculturetrip.com/europe/switzerland/articles/top-10-things-to-see-and-do-in-lucerne-switzerland/)
 
 ### Code Credit
 
