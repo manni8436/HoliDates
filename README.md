@@ -3,7 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/manni8436/HoliDates)
 ![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/HoliDates)
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/HoliDates)
-![GitHub top language](https://img.shields.io/github/languages/topmanni8436/HoliDates)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/HoliDates)
 
 [Here is a link to the final project](https://manni8436.github.io/HoliDates/)
 
@@ -89,24 +89,21 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 + Fixed Navbar with Home, Destination Picker, Getaways and tips options to allow the user easy access to all sections. 
 
-<p align="center" width="100%">
-  <img width="90%" src="">
-</p>
+![Fixed Navbar with Home, Destination Picker, Getaways and tips](assets/images/navbar-screenshot.png)
 
 + Collapsed navbar on smaller devices to wrap in all options and assure better navbar design.
-<p align="center" width="100%">
-  <img width="33%" src=""></p>
+
+![Collapsed navbar on smaller devices](assets/images/collapsed-navbar-screenshot.png)
 
 ###  Destination Picker section 
 
 + Google maps with markers on listed romantic destinations
-<p align="center" width="100%">
-  <img width="50%" src=""></p>
+
+![Destination Picker](assets/images/destination-picker-screenshot.png)
 
 + When users click on a destination, they can check the place with a zoom in and a pop up modal with destination details shown on the centre of the page.
  
-<p align="center" width="100%">
-  <img width="50%" src=""></p>
+![Destination Chosen](assets/images/destination-chosen-description-screenshot.png)
 
 ###  Getaways section 
 
