@@ -74,27 +74,14 @@ const showPlaces = (locations) => {
     let getaways = document.getElementById('card-container')
     // creates a card
     let cardContainer = document.createElement('div')
-    // adds Bootstrap classes
-    cardContainer.classList.add('col-12', 'col-sm-6', 'col-md-4')
     // appends the card to the containing container
     getaways.appendChild(cardContainer)
     // deconstructs the places objects
-    let { image, place, description } = location
+    let { image, place } = location
     
     // adds the card with content for each object in array of places.json
     cardContainer.innerHTML = `
-      <div class="p-2 p-lg-3">
-        <div class="card">
-
-            <a href="#" class="text-decoration-none">
-                <img src="${image}" class="card-img-top" alt="${place} picture">
-                <div class="card-body dark-text">
-                    <h5 class="card-title">${place}</h5>
-                    <p class="card-text">${description}</p>
-                </div>
-            </a>
-        </div>
-      </div>
+    <img src="${image}" class="location-images" alt="Image of ${place}">
     `
   });
 }
