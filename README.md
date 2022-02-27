@@ -9,6 +9,8 @@
 
 ## INITIAL DESIGN
 
+* The initial idea for this project was to create a website where a user to be able to get help on selecting a romantic getaways or a honeymoons destination. While also being able to use the website destination picker that gives them more information and the exact location.
+
 ## FINAL DESIGN
 
 ![Final project image home page]()
@@ -124,11 +126,13 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ## SOLVED BUGS
 
+No major bugs were found during the production of this project, just a few typos and stray tags
+
 ## TECHNOLOGIES USED
 
 ### LANGUAGES
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" />
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> 
 
 [Back To Top](#HoliDates)
 
@@ -140,7 +144,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 #### Bootstrap 5.1
 
-[Bootstrap] was used to assist with the style and responsiveness.
+[Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) was used to assist with the style and responsiveness.
 
 #### Favicon generator
 
@@ -150,8 +154,6 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 [Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
 
-[Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Githu
-t
 #### Git
 
 [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
@@ -170,7 +172,7 @@ t
 
 [Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
 
-### DESIGN:-
+### DESIGN
 
 #### Font Awesome
 
@@ -185,10 +187,6 @@ t
 [Balsamiq](https://balsamiq.com/) was used in the initial design process to make wireframes.
 
 ## DEPLOYMENT
-
-### INITIAL DEPLOYMENT
-
-## DEPLOYMENT:
 
 ### INITIAL DEPLOYMENT
 
@@ -216,7 +214,7 @@ If you need to make a copy of a repository:
 If you need to make a clone:    
 
 1. Login in to [GitHub](www.github.com).
-2. Fork the repository manni8436/HoliDates using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
+2. Fork the repository "manni8436/HoliDates" using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
 3. Above the file list, click "Code".
 4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
@@ -267,8 +265,6 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ## CONTENT
 
-[Back To Top](#HoliDates)
-
 ### MEDIA
 
 - All pictures and images used in this project are from [Unsplash](https://unsplash.com/).
@@ -290,3 +286,5 @@ All text content used in this project can be seen below.
 - [Stack Overflow](https://stackoverflow.com/) as a valuable resource for solving a several issues.
 - [W3schools](https://www.w3schools.com/) for general reference.
 - [Google Developer](https://developers.google.com/maps/documentation) for general reference about google maps API.
+
+[Back To Top](#HoliDates)
