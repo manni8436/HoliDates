@@ -5,17 +5,19 @@ var quotes = [
     "add here any extra quotes you want"
 ];
 
-// textSequence(0);
-// function textSequence(i) {
+textSequence(0);
+function textSequence(i) {
 
-//     if (quotes.length > i) {
-//         setTimeout(function () {
-//             document.getElementById("quotes").innerText = quotes[i];
-//             textSequence(++i);
-//         }, 3000);
+    if (quotes.length > i) {
+        setTimeout(function () {
+            document.getElementById("quotes").innerHTML = `
+            <p class="fade-text">"...${quotes[i]}..."</p>
+            `;
+            textSequence(++i);
+        }, 5000);
 
-//     } else if (quotes.length == i) {
-//         textSequence(0);
-//     }
+    } else if (quotes.length == i) {
+        textSequence(0);
+    }
 
-// }
+}

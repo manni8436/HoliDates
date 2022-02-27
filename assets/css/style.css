@@ -146,14 +146,16 @@ p {
   position: absolute;
   bottom: 20%;
   right: 20%;
-  
-  font-size: 2rem;
   text-align: end;
   max-width: 600px;
+}
+
+.fade-text {
+  font-size: 2rem;
   color: #fff;
 
   opacity: 0;
-  animation: fade 5s ease-in;
+  animation: fade 5s ease-in-out;
 }
 
 @keyframes fade {
