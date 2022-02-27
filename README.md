@@ -114,11 +114,18 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 <p align="center" width="100%">
   <img width="50%" src=""></p>
 
-###  Tips and Tricks section 
+![Romantic Getaways](assets/images/romantic-getaways-screenshot.png)
 
-+  
 <p align="center" width="100%">
   <img width="50%" src=""></p>
+
+![Honeymoon Getaways](assets/images/honeymoon-getaways-screenshot.png)
+
+### Footer
+
++ Divided into three areas - site name, team, social media links. The team name links allow the user to access each team member's GitHub page. 
+
+![Footer](assets/images/footer-screenshot.png)
 
 [Back To Top](#HoliDates)
 
@@ -170,8 +177,6 @@ No major bugs were found during the production of this project, just a few typos
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the site was performing well, conforming to best practices, SEO and Accessibility guidelines.
 
-[Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
-
 ### DESIGN
 
 #### Font Awesome
@@ -185,6 +190,10 @@ No major bugs were found during the production of this project, just a few typos
 #### Balsamiq
 
 [Balsamiq](https://balsamiq.com/) was used in the initial design process to make wireframes.
+
+#### Coolors
+
+[Coolors](https://coolors.co/) was used for the colour palette on the page, based on the hero image. 
 
 ## DEPLOYMENT
 
@@ -267,7 +276,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ### MEDIA
 
-- All pictures and images used in this project are from [Unsplash](https://unsplash.com/).
+- All pictures and images used in this project are from [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/).
 
 ### TEXT CONTENT
 
@@ -278,7 +287,7 @@ All text content used in this project can be seen below.
 - [Barcelona description](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
 - [Bruges description](https://www.visitbruges.be/en/romantic-hotspots-2)
 - [Rome description](https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/)
-- [CLiffs of Moher description](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
+- [Cliffs of Moher description](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
 - [Lucerne description](https://www.nationalgeographic.com/travel/article/how-to-spend-a-perfect-weekend-in-lucerne)
 
 ### Code Credit
