@@ -203,9 +203,8 @@ p {
 }
 
 /* modal fade in animation */
-
 .modal-fade-in {
-  animation: fade-in 1s ease-in;
+  animation: fade-in 1s;
 }
 
 @keyframes fade-in {

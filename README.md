@@ -111,14 +111,15 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 + Divided into two - Romantic and Honeymoon - users can find several destinations accordingly with their interest. 
  
-<p align="center" width="100%">
-  <img width="50%" src=""></p>
+![Romantic Getaways](assets/images/romantic-getaways-screenshot.png)
 
-###  Tips and Tricks section 
+![Honeymoon Getaways](assets/images/honeymoon-getaways-screenshot.png)
 
-+  
-<p align="center" width="100%">
-  <img width="50%" src=""></p>
+### Footer
+
++ Divided into three areas - site name, team, social media links. The team name links allow the user to access each team member's GitHub page. 
+
+![Footer](assets/images/footer-screenshot.png)
 
 [Back To Top](#HoliDates)
 
@@ -170,8 +171,6 @@ No major bugs were found during the production of this project, just a few typos
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the site was performing well, conforming to best practices, SEO and Accessibility guidelines.
 
-[Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
-
 ### DESIGN
 
 #### Font Awesome
@@ -185,6 +184,10 @@ No major bugs were found during the production of this project, just a few typos
 #### Balsamiq
 
 [Balsamiq](https://balsamiq.com/) was used in the initial design process to make wireframes.
+
+#### Coolors
+
+[Coolors](https://coolors.co/) was used for the colour palette on the page, based on the hero image. 
 
 ## DEPLOYMENT
 
@@ -267,19 +270,33 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ### MEDIA
 
-- All pictures and images used in this project are from [Unsplash](https://unsplash.com/).
+- All pictures and images used in this project are from [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/).
 
 ### TEXT CONTENT
 
 All text content used in this project can be seen below.
 
-- [Venice description](https://www.visit-venice-italy.com/history-love-venice-italy.htm)
-- [Salzburg description](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
-- [Barcelona description](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
-- [Bruges description](https://www.visitbruges.be/en/romantic-hotspots-2)
-- [Rome description](https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/)
-- [CLiffs of Moher description](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
-- [Lucerne description](https://www.nationalgeographic.com/travel/article/how-to-spend-a-perfect-weekend-in-lucerne)
++ Description
+
+- [Venice ](https://www.visit-venice-italy.com/history-love-venice-italy.html/)
+- [Salzburg ](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
+- [Barcelona ](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
+- [Bruges ](https://www.visitbruges.be/en/romantic-hotspots-2)
+- [Rome ](https://www.bigbustours.com/en/rome/romantic-things-to-do-rome/)
+- [Cliffs of Moher ](https://www.tenontours.com/top-10-romantic-places-in-ireland-to-visit/)
+- [Lucerne ](https://www.nationalgeographic.com/travel/article/how-to-spend-a-perfect-weekend-in-lucerne)
+
+
++ Tips
+
+- [Paris](https://worldinparis.com/visiting-paris-tips)
+- [Venice](https://theculturetrip.com/europe/italy/articles/the-top-10-things-to-do-and-see-in-venice/)
+- [Salzburg](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
+- [Barcelona](https://theculturetrip.com/europe/spain/articles/11-essential-tips-for-first-timers-in-barcelona/)
+- [Bruges](https://theculturetrip.com/europe/belgium/articles/10-things-to-know-before-you-go-to-bruges/)
+- [Rome](https://theculturetrip.com/europe/italy/articles/the-best-things-to-do-in-rome/)
+- [Cliffs of Moher](https://culturetourist.com/destinations/ireland/day-trip-from-dublin-cliffs-of-moher-galway/)
+- [Lucerne](https://theculturetrip.com/europe/switzerland/articles/top-10-things-to-see-and-do-in-lucerne-switzerland/)
 
 ### Code Credit
 

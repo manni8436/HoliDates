@@ -43,8 +43,10 @@ function initMap() {
           }, 3000);
           let output = `
           <div class="modal-header">
-              <h2 class="modal-title fw-bold">${place.place}</h5>                    
+              <h2 class="modal-title fw-bold">${place.place}</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>                  
           </div>
+          <div id="map"></div>
           <div class="modal-body">
           <img class="w-100" src="${place.image}" alt="${place.image}">
               <p class="p-2 text-center">${place.description}.</p>
