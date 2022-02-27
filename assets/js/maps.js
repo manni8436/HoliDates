@@ -78,7 +78,7 @@ fetch('./honeymoon.json')
 
 const addEachImage = (getaways, images) => {
   // deconstructs the places objects
-  let { image, place } = images
+  let { image, place, description, tips } = images
   // creates an image
   let cardContainer = document.createElement('img')
   // adds tags to the image
@@ -87,6 +87,10 @@ const addEachImage = (getaways, images) => {
   cardContainer.classList.add('location-images', 'img-fluid') 
   // appends the card to the containing container
   getaways.appendChild(cardContainer)
+
+  cardContainer.addEventListener('click', () => {
+    showModal(image, place, description, tips)
+  })
 }
 
 // shows all of the romantic getaways from JSON file
@@ -109,4 +113,23 @@ const showHoneymoon = (locations) => {
 
     addEachImage(getaways, location)
   });
+}
+
+// display modal with more info when clicking on an image
+
+let showModal = (image, place, description, tips) => {
+  let modalContent = `
+    <div class="modal-header">
+      <h2 class="modal-title fw-bold">${place}</h5>                    
+    </div>
+    <div class="modal-body">
+    <img class="w-100" src="${image}" alt="Image of ${place}">
+      <p class="p-2 text-center">${description}.</p>
+      <hr>
+      <p class="m-0 fw-bold text-center">Tips:</p>
+      <p class="small p-2 px-5">${tips}</p>
+  </div>
+  `
+  console.log(modalContent)
+  document.querySelector(".modal-content").innerHTML = modalContent
 }
