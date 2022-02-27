@@ -1,0 +1,26 @@
+[
+    {
+    "place": "Paris",
+    "description": "Paris is like nowhere else when it comes to love. This is a city that encourages all in it to be free, light of spirit and carefree. Venice, Rome and New York all lay claim to being romantic, but Paris has its own special aura, because the City of Light is also the City of Love. Whether it's lounging on the grass outside The Museum of Romantic Life, purring sweet nothings under the Eiffel Tower or embracing in front of 'The Wall of I Love You', Paris is the ultimate place of the heart.",
+    "image": "assets/images/paris-france.jpg",
+    "lat": 48.85917532062315, 
+    "lng": 2.2939511780492063,
+    "mark": "Paris"
+  },
+  {
+    "place": "Barcelona",
+    "description": "Barcelona will leave you feeling warm and fuzzy inside. From strolling hand in hand through the old-world streets of the Gothic Quarter to cozying up in the corner of a lively tapas bar, there are plenty of ways to enjoy the city as a couple.",
+    "image": "assets/images/barcelona-spain.jpg",
+    "lat": 41.40449718616649, 
+    "lng": 2.1759463123186724,
+    "mark": "Barcelona"
+  },
+  {
+    "place": "Venice",
+    "description": "Venice, city of love, who would doubt it! Love affairs and famous lovers, the entire history of Venice is intimately linked to Cupid. Romanticism and eroticism, sacred love or secular love, Cupid reigns supreme here, always ready to shoot his arrows of intoxicating perfumes. ",
+    "image": "assets/images/venice-italy.jpg",
+    "lat": 45.438675395075585, 
+    "lng": 12.332396264611916,
+    "mark": "Venice"
+  } 
+  ]
