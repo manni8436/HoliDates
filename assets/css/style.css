@@ -54,6 +54,10 @@ p {
 
 /* navigation links */
 
+.navbar{
+  min-height: 100px;
+}
+
 #menu {
   font-weight: 600;
   letter-spacing: 4px;
