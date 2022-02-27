@@ -1,5 +1,6 @@
 let map;
 
+// create google maps from api
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: {
@@ -12,12 +13,14 @@ function initMap() {
   });
   map.setTilt(45);
 
+  // open json file
   let http = new XMLHttpRequest();
 
   http.open('get', 'places.json', true);
 
   http.send();
 
+  
   http.onload = function () {
     if (this.readyState == 4 && this.status == 200) {
       let places = JSON.parse(this.responseText);
@@ -26,14 +29,15 @@ function initMap() {
         const coord = {
           lat: place.lat,
           lng: place.lng
-        };
-       
+        };       
 
+        // create marker
         const marker = new google.maps.Marker({
           position: coord,
           map: map,
+          
         });
-
+        // zoom in when click marker
         marker.addListener("click", () => {
           var pos = map.getZoom();
           map.setZoom(17);
@@ -55,12 +59,13 @@ function initMap() {
               <p class="small p-2 px-5">${place.tips}</p>
           </div>                       
           `;
+          // open modal after 3 seconds of modal click
           document.querySelector(".modal-content").innerHTML = output;
-          setTimeout(function() {$('#detailsModal').modal('show')}, 3000);
+          setTimeout(function() {$('#detailsModal').modal('show');}, 3000);
         });
       }
-    };
-  }
+    }
+  };
 }
 
 // import the json files and pass them to the respectable function
@@ -80,42 +85,42 @@ fetch('./honeymoon.json')
 
 const addEachImage = (getaways, images) => {
   // deconstructs the places objects
-  let { image, place, description, tips } = images
+  let { image, place, description, tips } = images;
   // creates an image
-  let cardContainer = document.createElement('img')
+  let cardContainer = document.createElement('img');
   // adds tags to the image
-  cardContainer.src = `${image}`
-  cardContainer.alt = `Image of ${place}` 
-  cardContainer.classList.add('location-images', 'img-fluid') 
+  cardContainer.src = `${image}`;
+  cardContainer.alt = `Image of ${place}`;
+  cardContainer.classList.add('location-images', 'img-fluid');
   // appends the card to the containing container
-  getaways.appendChild(cardContainer)
+  getaways.appendChild(cardContainer);
 
   cardContainer.addEventListener('click', () => {
-    showModal(image, place, description, tips)
-  })
-}
+    showModal(image, place, description, tips);
+  });
+};
 
 // shows all of the romantic getaways from JSON file
 const showGetaways = (locations) => {
   // takes each location in places.json
   locations.forEach(location => {
     // imports the container from html for all of the locations
-    let getaways = document.getElementById('card-container')
+    let getaways = document.getElementById('card-container');
 
-    addEachImage(getaways, location)
+    addEachImage(getaways, location);
   });
-}
+};
 
 // show all of the honeymoon locations from honeymoon.json
 const showHoneymoon = (locations) => {
   // takes each location in places.json
   locations.forEach(location => {
     // imports the container from html for all of the locations
-    let getaways = document.getElementById('honeymoon-container')
+    let getaways = document.getElementById('honeymoon-container');
 
-    addEachImage(getaways, location)
+    addEachImage(getaways, location);
   });
-}
+};
 
 // display modal with more info when clicking on an image
 
@@ -132,8 +137,8 @@ let showModal = (image, place, description, tips) => {
       <p class="small p-2 px-5">${tips}</p>
       <p class="small p-2 px-5">(Tap/Click outside the window to close)</p>
   </div>
-  `
-  document.querySelector('.modal-content').innerHTML = modalContent
-  document.getElementById('detailsModal').classList.add('modal-fade-in')
-  $('#detailsModal').modal('show')
-}
+  `;
+  document.querySelector('.modal-content').innerHTML = modalContent;
+  document.getElementById('detailsModal').classList.add('modal-fade-in');
+  $('#detailsModal').modal('show');
+};

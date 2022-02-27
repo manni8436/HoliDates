@@ -244,17 +244,47 @@ If you need to make a local clone:
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 
-* W3C HTML Validator Results
++ HTML
+
+  Passing the HTML from index into the W3C Markup Validator no errors or warnings have been found [W3C validator](https://validator.w3.org/).
   
-* W3C CSS Validator Results
+Code Validation results:
+  
+[Index Page]() <br>
 
-* JSHint
+   + CSS
 
+No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
+
+6 warnings were found on the validation process. Five of them about custom properties were used to ensure that DRY principle was upheld and all warnings concerns the root colours code and two about imported style sheet from Google Fonts. 
+
+CSS validation results can be viewed [here]()
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+
++ JavaScript
+
+Both javascript files have been tested with the jshint and no error were been found. 
+
+Reports can be found on links:
+
+[maps.js](assets/images/jsvalidation_maps.jpg) &nbsp; 
+[floatingText.js](assets/images/jsvalidation_floatingText.jpg) &nbsp; 
+
+  
 ### FULL TESTING
 
 [Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
 
 ### LIGHTHOUSE
+
+Lighthouse tools have also been used to ensure SEO and achieve high performance on the website.
+
+![Lighthouse report](assets/images/lighthouse.jpg)
 
 ### DESKTOP
 
