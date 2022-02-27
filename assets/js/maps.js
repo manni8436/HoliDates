@@ -61,32 +61,52 @@ function initMap() {
   }
 }
 
-// import the places.json
+// import the json files and pass them to the respectable function
 fetch('./places.json')
 .then(response => {
     return response.json();
 })
 // pass it to the function that dynamically fills the places in html
-.then (jsondata => showPlaces(jsondata));
+.then (jsondata => showGetaways(jsondata));
 
-// shows all of the places from JSON file
-const showPlaces = (locations) => {
+
+fetch('./honeymoon.json')
+.then(response => {
+    return response.json();
+})
+.then (jsondata => showHoneymoon(jsondata));
+
+const addEachImage = (getaways, images) => {
+  // deconstructs the places objects
+  let { image, place } = images
+  // creates an image
+  let cardContainer = document.createElement('img')
+  // adds tags to the image
+  cardContainer.src = `${image}`
+  cardContainer.alt = `Image of ${place}` 
+  cardContainer.classList.add('location-images', 'img-fluid') 
+  // appends the card to the containing container
+  getaways.appendChild(cardContainer)
+}
+
+// shows all of the romantic getaways from JSON file
+const showGetaways = (locations) => {
   // takes each location in places.json
   locations.forEach(location => {
-    // deconstructs the places objects
-    let { image, place } = location
-
     // imports the container from html for all of the locations
     let getaways = document.getElementById('card-container')
 
-    // creates an image
-    let cardContainer = document.createElement('img')
-    // adds tags to the image
-    cardContainer.src = `${image}`
-    cardContainer.alt = `Image of ${place}` 
-    cardContainer.classList.add('location-images', 'img-fluid') 
-    // appends the card to the containing container
-    getaways.appendChild(cardContainer)
-    
+    addEachImage(getaways, location)
+  });
+}
+
+// show all of the honeymoon locations from honeymoon.json
+const showHoneymoon = (locations) => {
+  // takes each location in places.json
+  locations.forEach(location => {
+    // imports the container from html for all of the locations
+    let getaways = document.getElementById('honeymoon-container')
+
+    addEachImage(getaways, location)
   });
 }

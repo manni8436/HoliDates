@@ -169,7 +169,7 @@ p {
 
 /* image containers */
 
-#card-container {
+.locations-containers {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
