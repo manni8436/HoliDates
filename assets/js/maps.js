@@ -57,3 +57,44 @@ function initMap() {
     };
   }
 }
+
+// import the places.json
+fetch('./places.json')
+.then(response => {
+    return response.json();
+})
+// pass it to the function that dynamically fills the places in html
+.then (jsondata => showPlaces(jsondata));
+
+// shows all of the places from JSON file
+const showPlaces = (locations) => {
+  // takes each location in places.json
+  locations.forEach(location => {
+    // imports the container from html for all of the locations
+    let getaways = document.getElementById('card-container')
+    // creates a card
+    let cardContainer = document.createElement('div')
+    // adds Bootstrap classes
+    cardContainer.classList.add('col-12', 'col-sm-6', 'col-md-4')
+    // appends the card to the containing container
+    getaways.appendChild(cardContainer)
+    // deconstructs the places objects
+    let { image, place, description } = location
+    
+    // adds the card with content for each object in array of places.json
+    cardContainer.innerHTML = `
+      <div class="p-2 p-lg-3">
+        <div class="card">
+
+            <a href="#" class="text-decoration-none">
+                <img src="${image}" class="card-img-top" alt="${place} picture">
+                <div class="card-body dark-text">
+                    <h5 class="card-title">${place}</h5>
+                    <p class="card-text">${description}</p>
+                </div>
+            </a>
+        </div>
+      </div>
+    `
+  });
+}
