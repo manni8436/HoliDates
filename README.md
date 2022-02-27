@@ -111,13 +111,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 + Divided into two - Romantic and Honeymoon - users can find several destinations accordingly with their interest. 
  
-<p align="center" width="100%">
-  <img width="50%" src=""></p>
-
 ![Romantic Getaways](assets/images/romantic-getaways-screenshot.png)
-
-<p align="center" width="100%">
-  <img width="50%" src=""></p>
 
 ![Honeymoon Getaways](assets/images/honeymoon-getaways-screenshot.png)
 
