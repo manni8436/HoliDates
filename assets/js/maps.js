@@ -132,5 +132,6 @@ let showModal = (image, place, description, tips) => {
   </div>
   `
   document.querySelector('.modal-content').innerHTML = modalContent
+  document.getElementById('detailsModal').classList.add('modal-fade-in')
   $('#detailsModal').modal('show')
 }

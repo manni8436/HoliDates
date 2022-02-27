@@ -171,7 +171,7 @@ p {
   30%, 70% { opacity: 1 }
 }
 
-/* image containers */
+/* image location containers */
 
 .locations-containers {
   flex-wrap: wrap;
@@ -200,6 +200,17 @@ p {
   .location-images {
     width: 100%;
   }
+}
+
+/* modal fade in animation */
+
+.modal-fade-in {
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
 
 /* columns and rows */
