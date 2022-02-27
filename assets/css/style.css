@@ -28,6 +28,10 @@ body {
 
 /* headings and paragraphs */
 
+#menu-site-name h1 {
+  color: rgb(156, 16, 16);
+}
+
 h1,
 h2 {
   font-family: Redressed, sans-serif;
@@ -66,17 +70,17 @@ p {
 #menu li {
   float: right;
   list-style-type: none;
-  margin-right: 30px;
+  margin-left: 25px;
 }
 
 #menu a {
   text-decoration: none;
   font-family: Redressed, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: #697177;
-  float: left;
-  font-size: 140%;
+  float: right;
+  font-size: 120%;
 }
 
 #menu a:hover {
