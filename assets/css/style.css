@@ -175,7 +175,7 @@ p {
 }
 
 .location-images {
-  width: 100%;
+  width: 30%;
   height: 500px;
   object-fit: cover;
   margin: 50px 15px;
@@ -184,6 +184,18 @@ p {
 
   border-radius: 10px;
   box-shadow: 5px 10px 50px #555555;
+}
+
+@media screen and (max-width: 1200px) {
+  .location-images {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .location-images {
+    width: 100%;
+  }
 }
 
 /* columns and rows */
