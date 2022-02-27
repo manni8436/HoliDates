@@ -1,11 +1,12 @@
 [
 {
   "place": "Rome",
-  "description": "From boat rides under the stars, to scenic rooftop drinks and magical opera performances, there are countless things to do in Rome that are romantic. If you’re travelling to the city as part of a couple, then there are a few key places to visit in Rome that really get the heart beating faster. Do any of the following with your partner and you’ll be sure to feel the love…",
+  "description": "From boat rides under the stars, to scenic rooftop drinks and magical opera performances, there are countless things to do in Rome that are romantic. If youre travelling to the city as part of a couple, then there are a few key places to visit in Rome that really get the heart beating faster. Do any of the following with your partner and you’ll be sure to feel the love…",
   "image": "assets/images/rome-italy.jpg",
   "lat": 41.90234235603637,
   "lng": 12.453958156221665,
-  "mark": "Rome"
+  "mark": "Rome",
+  "tips": "1. Hire bikes and cycle around Villa Borghese - The most beautiful park in Rome.<br>2. Visit the top level of the Colosseum.<br>3. Have an authentic Roman pizza at a ‘pizzeria’.<br>4. Go bar hopping in Pigneto.<br> 5. Visit the Vatican Museums by night.<br>6. Climb up St Peter’s dome."
 },
 {
   "place": "Bruges",
@@ -13,15 +14,18 @@
   "image": "assets/images/bruges-belgium.jpg",
   "lat": 51.21175173841297,
   "lng": 3.2269135610842294,
-  "mark": "Bruges"
+  "mark": "Bruges",
+  "tips": "1. The best things in life are free: an evening stroll along the canals.<br>2. It’s proposal central - You’d certainly want to sidestep Café Rose Red, a charming little dwelling where roses dangle from the ceiling and many lovebirds emerge newly engaged.<br>3. Surrendering to comfort food will make your life easier - Homey restaurants such as Den Amand, Den Huzaar, Ganzespel, and Gran Kaffee de Passage serve top-notch comfort food of the Flemish kind.<br>4. If you can’t stand crowds, go during wintertime."
 },
 {
   "place": "Lucerne",
-  "description": "There’s no denying it: Lucerne plays in to every cliché about the romantic Swiss getaway. Perfectly poised at the foot of the Alps in the Swiss-German speaking part of central Switzerland, the city’s namesake lake reflects the snowy peaks—including Mount Pilatus and Mout Titlis, popular day trip destinations. The River Reuss cuts through the painted façades of Old Town, where couples huddle together over rösti and hot chocolate at riverside cafés.",
+  "description": "Theres no denying it: Lucerne plays in to every cliché about the romantic Swiss getaway. Perfectly poised at the foot of the Alps in the Swiss-German speaking part of central Switzerland, the citys namesake lake reflects the snowy peaks—including Mount Pilatus and Mout Titlis, popular day trip destinations. The River Reuss cuts through the painted façades of Old Town, where couples huddle together over rösti and hot chocolate at riverside cafés.",
   "image": "assets/images/lucerne-switzerland.jpg",
-  "lat": 41.40449718616649, 
-  "lng": 2.1759463123186724,
-  "mark": "Barcelona"
+  "lat": 47.05013566956146, 
+  "lng": 8.308772097327006,
+  "mark": "Lucerne",
+  "tips": "1. Grab tickets to the Lucerne Festival -One of the most exciting classical music festivals in the world.<br>2. Ascend Mount Pilatus<br>3. Visit the Museum Bellpark -Inside a storybook-worthy house in Lucerne’s leafy suburb of Kriens.<br>4. Relax over a pint at the Rathaus Brauerei.<br>5. Roam around the Old Town -Lucerne’s Old Town bursts with historical flamboyance.<br>6. Dine with a view at Château Gütsch."
+
 },
 {
   "place": "Salzburg",
@@ -29,14 +33,16 @@
   "image": "assets/images/salzburg-austria.jpg",
   "lat": 47.80960703606472, 
   "lng": 13.056429699317384,
-  "mark": "Barcelona"
+  "mark": "Salzburg",
+  "tips": "1. Take a stroll on Mönchsberg - A 20-minute climb, the views from the top of Mönchsberg are awe-inspiring.<br>2. Visit the Stiegl Brewery- the Stiegl Brewery is home to Salzburg’s most popular beer.<br>3. Visit the DomQuartier Museum - Located in the heart of the Old Town, this museum combines five smaller museums in one space, giving you real value for your money."
 },
 {
   "place": "Cliffs of Moher",
-  "description": "One of the most romantic things you could do in Ireland, surprise your love with a private helicopter ride touring the infamous Cliffs of Moher. There is no other view like it. Once you’ve gotten up close and personal with the miles of cliffs have the helicopter deliver you to the Aran Islands.",
+  "description": "One of the most romantic things you could do in Ireland, surprise your love with a private helicopter ride touring the infamous Cliffs of Moher. There is no other view like it. Once youve gotten up close and personal with the miles of cliffs have the helicopter deliver you to the Aran Islands.",
   "image": "assets/images/cliffsofmoher.jpg",
   "lat": 52.97179460966114,  
   "lng": -9.430882404498012,
-  "mark": "Cliffs of Moher"
+  "mark": "Cliffs of Moher",
+  "tips": "1. Start early.<br>2. Wear some good comfortable shoes when going there - Since it’s raining probably every single day at the Cliffs of Moher, it’s really muddy there.<br>3. Lunch at a local pub in Doolin village - busy, loud and with real comfort food there.<br>4. Ride through the Burren Region - although the roads isn't the best, the scenery is just amazing."
 }
 ]
