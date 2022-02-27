@@ -33,7 +33,7 @@
 },
 {
   "place": "Lucerne",
-  "description": "Lucerne description",
+  "description": "There’s no denying it: Lucerne plays in to every cliché about the romantic Swiss getaway. Perfectly poised at the foot of the Alps in the Swiss-German speaking part of central Switzerland, the city’s namesake lake reflects the snowy peaks—including Mount Pilatus and Mout Titlis, popular day trip destinations. The River Reuss cuts through the painted façades of Old Town, where couples huddle together over rösti and hot chocolate at riverside cafés.",
   "image": "assets/images/lucerne-switzerland.jpg",
   "lat": 41.40449718616649, 
   "lng": 2.1759463123186724,
@@ -57,7 +57,7 @@
 },
 {
   "place": "Cliffs of Moher",
-  "description": "The cliffs are one of the most popular tourist destinations in Ireland and topped a list of attractions in 2006 by receiving almost one million visitors at the official visitor centre. With additional visitors to other locales included there are around 1.5 million a year. Since 2011, they have formed a part of the Burren and Cliffs of Moher Geopark, one of a family of geotourism destinations throughout Europe that are members of the European Geoparks Network and also recognized by UNESCO. The cliffs are also a signature point on the official Wild Atlantic Way tourist trail.",
+  "description": "One of the most romantic things you could do in Ireland, surprise your love with a private helicopter ride touring the infamous Cliffs of Moher. There is no other view like it. Once you’ve gotten up close and personal with the miles of cliffs have the helicopter deliver you to the Aran Islands.",
   "image": "assets/images/cliffsofmoher.jpg",
   "lat": 52.97179460966114,  
   "lng": -9.430882404498012,
