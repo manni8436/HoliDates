@@ -16,7 +16,7 @@ function textSequence(i) {
             <p class="fade-text">"...${quotes[i]}..."</p>
             `;
             textSequence(++i);
-        }, 5000);
+        }, 8000);
 
     } else if (quotes.length == i) {
         textSequence(0);

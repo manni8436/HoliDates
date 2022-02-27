@@ -163,7 +163,7 @@ p {
   color: #fff;
 
   opacity: 0;
-  animation: fade 5s ease-in-out;
+  animation: fade 8s ease-in-out;
 }
 
 @keyframes fade {
