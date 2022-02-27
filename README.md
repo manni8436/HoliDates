@@ -75,9 +75,7 @@
 
 The colour scheme was generated using hero image, and [coolors](https://coolors.co/) to generate the colour pallet.
 
-<p align="center" width="100%">
-  <img width="33%" src="assets/images/lovehackathoncolourpalette.png">
-</p>
+![Site Colour Theme](assets/images/lovehackathoncolourpalette.png)
 
 [Back To Top](#HoliDates)
 
