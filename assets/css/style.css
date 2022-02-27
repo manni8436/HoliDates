@@ -171,7 +171,7 @@ p {
   30%, 70% { opacity: 1 }
 }
 
-/* image containers */
+/* image location containers */
 
 .locations-containers {
   flex-wrap: wrap;
@@ -203,7 +203,6 @@ p {
 }
 
 /* modal fade in animation */
-
 .modal-fade-in {
   animation: fade-in 1s;
 }
