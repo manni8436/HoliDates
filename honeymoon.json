@@ -5,7 +5,12 @@
     "image": "assets/images/paris-france.jpg",
     "lat": 48.85917532062315, 
     "lng": 2.2939511780492063,
-    "mark": "Paris"
+    "mark": "Paris",
+    "tips": "Book in Advance, and Skip the Lines
+            At the Airport, Only Use Regular Taxis - Taking a ride with a regular, official taxi is what we would consider a matter of common sense, but you’d be surprised at how many tourists still get lured!
+            Save Money on Public Transport - France has good high-speed trains (named TGVs), with very regular connections between Paris, Lyon, Marseille, Strasbourg, and more.
+            Discover the Daily Life in Paris - To get a little more of Paris, you must venture where the residents are. So choose one of the lesser-known districts of Paris, put away your map, and just wander.
+            Discover Popular Food in Paris - Enjoy French traditional food in any of the Parisian bistros. Stop for a coffee and some people-watching in a cute Parisian cafe. And be sure don’t miss Paris best cakes!"
   },
   {
     "place": "Barcelona",
@@ -13,7 +18,14 @@
     "image": "assets/images/barcelona-spain.jpg",
     "lat": 41.40449718616649, 
     "lng": 2.1759463123186724,
-    "mark": "Barcelona"
+    "mark": "Barcelona",
+    "tips": "Walk everywhere - Barcelona is considered one of the world’s most walkable cities thanks to the prescient street-gridding system.
+            Gaudí, look up - Barcelona is best known for architectural masterpieces created by its favourite son, Antoni Gaudí, who pioneered a style that combines standard geometry with biomimicry.
+            Ditch the sangria - While many associate Spain with sangria, this isn’t the typical choice in Barcelona.
+            Keep your bag close - Unfortunately, Barcelona still struggles with a pickpocketing problem, and thieves primarily target travellers
+            Run for the hills - You can make a trip to the top of Tibidabo, where Barcelona and the Mediterranean are visible at a greater distance. 
+            Go for a tour - Joining a walking tour in Barcelona’s old city is a great way to become familiar with the city and its history. 
+            Look for taxis, not Uber - The popular ride-sharing application and all similar competitors have been banned in Barcelona."
   },
   {
     "place": "Venice",
@@ -21,6 +33,11 @@
     "image": "assets/images/venice-italy.jpg",
     "lat": 45.438675395075585, 
     "lng": 12.332396264611916,
-    "mark": "Venice"
+    "mark": "Venice",
+    "tips":"Visit the Bridge of Sighs - One of Venice’s most famous architectural jewels.
+            Go to the Venetian Ghetto- Visiting the Jewish District in Venice is one of the top things to do in the city.
+            Explore Piazza San Marco.
+            Go for aperitivo -  Locals head to bars to order a drink and eat some cicchetti (snacks), a quick and authentic Italian way of having dinner.
+            Take a ferry to Murano, Burano and Torcello."
   } 
   ]

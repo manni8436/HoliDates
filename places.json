@@ -5,7 +5,13 @@
   "image": "assets/images/rome-italy.jpg",
   "lat": 41.90234235603637,
   "lng": 12.453958156221665,
-  "mark": "Rome"
+  "mark": "Rome",
+  "tips": "Hire bikes and cycle around Villa Borghese - Te most beautiful park in Rome.
+          Visit the top level of the Colosseum.
+          Have an authentic Roman pizza at a ‘pizzeria’.
+          Go bar hopping in Pigneto.
+          Visit the Vatican Museums by night.
+          Climb up St Peter’s dome."
 },
 {
   "place": "Bruges",
@@ -13,7 +19,12 @@
   "image": "assets/images/bruges-belgium.jpg",
   "lat": 51.21175173841297,
   "lng": 3.2269135610842294,
-  "mark": "Bruges"
+  "mark": "Bruges",
+  "tips": "The best things in life are free: an evening stroll along the canals 
+          It’s proposal central - You’d certainly want to sidestep Café Rose Red, a charming little dwelling where roses dangle from the ceiling and many lovebirds emerge newly engaged.
+          Groenerei | Jan D'Hondt/courtesy of Toerisme Brugge
+          Surrendering to comfort food will make your life easier - Homey restaurants such as Den Amand, Den Huzaar, Ganzespel, and Gran Kaffee de Passage serve top-notch comfort food of the Flemish kind.
+          If you can’t stand crowds, go during wintertime"
 },
 {
   "place": "Lucerne",
@@ -21,7 +32,13 @@
   "image": "assets/images/lucerne-switzerland.jpg",
   "lat": 41.40449718616649, 
   "lng": 2.1759463123186724,
-  "mark": "Barcelona"
+  "mark": "Barcelona",
+  "tips": "Grab tickets to the Lucerne Festival -One of the most exciting classical music festivals in the world.
+          Ascend Mount Pilatus.
+          Visit the Museum Bellpark -Inside a storybook-worthy house in Lucerne’s leafy suburb of Kriens.
+          Relax over a pint at the Rathaus Brauerei.
+          Roam around the Old Town -Lucerne’s Old Town bursts with historical flamboyance.
+          Dine with a view at Château Gütsch."
 },
 {
   "place": "Salzburg",
@@ -29,7 +46,10 @@
   "image": "assets/images/salzburg-austria.jpg",
   "lat": 47.80960703606472, 
   "lng": 13.056429699317384,
-  "mark": "Barcelona"
+  "mark": "Barcelona",
+  "tips": "Take a stroll on Mönchsberg.
+          Visit the Stiegl Brewery.
+          Visit the DomQuartier Museum."
 },
 {
   "place": "Cliffs of Moher",
@@ -37,6 +57,10 @@
   "image": "assets/images/cliffsofmoher.jpg",
   "lat": 52.97179460966114,  
   "lng": -9.430882404498012,
-  "mark": "Cliffs of Moher"
+  "mark": "Cliffs of Moher",
+  "tips": "Start early.
+          Wear some good comfortable shoes when going there.
+          Lunch at a local pub in Doolin village.
+          Ride through the Burren Region."
 }
 ]
