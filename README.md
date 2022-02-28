@@ -240,19 +240,44 @@ If you need to make a local clone:
 
 ### CODE VALIDATORS
 
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
++ HTML
 
-* W3C HTML Validator Results
+  Passing the HTML from index into the (X)HTML5 Validator no errors or warnings have been found [Validator.nu](https://html5.validator.nu/).
   
-* W3C CSS Validator Results
+Code Validation results:
+  
+[Index Page](assets/images/htmlvalidation.jpg) <br>
 
-* JSHint
+   + CSS
 
+No errors were found when passing through the official [CSSlint](http://csslint.net). 
+
+CSS validation results can be viewed [here](assets/images/cssvalidation.jpg)
+
+ 25 (not relevant) warning have been found.
+
+CSS validation  warnings can be viewed [here](assets/images/csswarnings.jpg)
+[Index Page](assets/images/htmlvalidation.jpg) <br>
+
++ JavaScript
+
+Both javascript files have been tested with the jshint and no error were been found. 
+
+Reports can be found on links:
+
+[maps.js](assets/images/jsvalidation_maps.jpg) &nbsp; 
+[floatingText.js](assets/images/jsvalidation_floatingText.jpg) &nbsp; 
+
+  
 ### FULL TESTING
 
 [Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
 
 ### LIGHTHOUSE
+
+Lighthouse tools have also been used to ensure SEO and achieve high performance on the website.
+
+![Lighthouse report](assets/images/lighthouse.jpg)
 
 ### DESKTOP
 
