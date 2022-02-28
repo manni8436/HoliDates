@@ -186,6 +186,10 @@ This accessibility bug will be solved in a future release by adding an overlay f
 
 [GitPod](https://gitpod.io) was used as an IDE whilst coding this site.
 
+#### Visual Studio Code
+
+[Visual Studio Code](https://code.visualstudio.com) was also used as an IDE for code development
+
 #### GitHub
 
 [GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod.
