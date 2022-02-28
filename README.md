@@ -13,7 +13,7 @@
 
 ## FINAL DESIGN
 
-![Final project image home page](assets/images/responsive-image.png)
+![Final project image home page](assets/images/site.JPG)
 
 ## CONTENTS
 
