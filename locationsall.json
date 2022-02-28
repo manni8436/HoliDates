@@ -1,0 +1,75 @@
+[
+  {
+    "place": "Rome",
+    "description": "From boat rides under the stars, to scenic rooftop drinks and magical opera performances, there are countless things to do in Rome that are romantic. If youre travelling to the city as part of a couple, then there are a few key places to visit in Rome that really get the heart beating faster. Do any of the following with your partner and you’ll be sure to feel the love…",
+    "image": "assets/images/rome-italy.jpg",
+    "lat": 41.90234235603637,
+    "lng": 12.453958156221665,
+    "mark": "Rome",
+    "tips": "1. Hire bikes and cycle around Villa Borghese - The most beautiful park in Rome.<br>2. Visit the top level of the Colosseum.<br>3. Have an authentic Roman pizza at a ‘pizzeria’.<br>4. Go bar hopping in Pigneto.<br> 5. Visit the Vatican Museums by night.<br>6. Climb up St Peter’s dome."
+  },
+  {
+    "place": "Bruges",
+    "description": "Swans on the canals, a maze of medieval streets, the clatter of hooves, hidden parks, charming courtyards... there are no jarring notes to disturb this historic picture. Whether you picnic in Koningin Astridpark (Queen Astrid Park), linger on the Boniface Bridge, or savour the peace of the Beguinage, in Bruges romance always hangs in the air. You’re sure to fall in love.",
+    "image": "assets/images/bruges-belgium.jpg",
+    "lat": 51.21175173841297,
+    "lng": 3.2269135610842294,
+    "mark": "Bruges",
+    "tips": "1. The best things in life are free: an evening stroll along the canals.<br>2. It’s proposal central - You’d certainly want to sidestep Café Rose Red, a charming little dwelling where roses dangle from the ceiling and many lovebirds emerge newly engaged.<br>3. Surrendering to comfort food will make your life easier - Homey restaurants such as Den Amand, Den Huzaar, Ganzespel, and Gran Kaffee de Passage serve top-notch comfort food of the Flemish kind.<br>4. If you can’t stand crowds, go during wintertime."
+  },
+  {
+    "place": "Lucerne",
+    "description": "Theres no denying it: Lucerne plays in to every cliché about the romantic Swiss getaway. Perfectly poised at the foot of the Alps in the Swiss-German speaking part of central Switzerland, the citys namesake lake reflects the snowy peaks—including Mount Pilatus and Mout Titlis, popular day trip destinations. The River Reuss cuts through the painted façades of Old Town, where couples huddle together over rösti and hot chocolate at riverside cafés.",
+    "image": "assets/images/lucerne-switzerland.jpg",
+    "lat": 47.05013566956146, 
+    "lng": 8.308772097327006,
+    "mark": "Lucerne",
+    "tips": "1. Grab tickets to the Lucerne Festival -One of the most exciting classical music festivals in the world.<br>2. Ascend Mount Pilatus<br>3. Visit the Museum Bellpark -Inside a storybook-worthy house in Lucerne’s leafy suburb of Kriens.<br>4. Relax over a pint at the Rathaus Brauerei.<br>5. Roam around the Old Town -Lucerne’s Old Town bursts with historical flamboyance.<br>6. Dine with a view at Château Gütsch."
+
+  },
+  {
+    "place": "Salzburg",
+    "description": "Watch the first rays of the sun rising over the mountains, be taken by the warm hospitality, enjoy the untouched nature. It is the unique experiences in Salzburg that make our hearts leap.",
+    "image": "assets/images/salzburg-austria.jpg",
+    "lat": 47.80960703606472, 
+    "lng": 13.056429699317384,
+    "mark": "Salzburg",
+    "tips": "1. Take a stroll on Mönchsberg - A 20-minute climb, the views from the top of Mönchsberg are awe-inspiring.<br>2. Visit the Stiegl Brewery- the Stiegl Brewery is home to Salzburg’s most popular beer.<br>3. Visit the DomQuartier Museum - Located in the heart of the Old Town, this museum combines five smaller museums in one space, giving you real value for your money."
+  },
+  {
+    "place": "Cliffs of Moher",
+    "description": "One of the most romantic things you could do in Ireland, surprise your love with a private helicopter ride touring the infamous Cliffs of Moher. There is no other view like it. Once youve gotten up close and personal with the miles of cliffs have the helicopter deliver you to the Aran Islands.",
+    "image": "assets/images/cliffsofmoher.jpg",
+    "lat": 52.97179460966114,  
+    "lng": -9.430882404498012,
+    "mark": "Cliffs of Moher",
+    "tips": "1. Start early.<br>2. Wear some good comfortable shoes when going there - Since it’s raining probably every single day at the Cliffs of Moher, it’s really muddy there.<br>3. Lunch at a local pub in Doolin village - busy, loud and with real comfort food there.<br>4. Ride through the Burren Region - although the roads isn't the best, the scenery is just amazing."
+  },
+  {
+    "place": "Paris",
+    "description": "Paris is like nowhere else when it comes to love. This is a city that encourages all in it to be free, light of spirit and carefree. Venice, Rome and New York all lay claim to being romantic, but Paris has its own special aura, because the City of Light is also the City of Love. Whether it's lounging on the grass outside The Museum of Romantic Life, purring sweet nothings under the Eiffel Tower or embracing in front of 'The Wall of I Love You', Paris is the ultimate place of the heart.",
+    "image": "assets/images/paris-france.jpg",
+    "lat": 48.85917532062315, 
+    "lng": 2.2939511780492063,
+    "mark": "Paris",
+    "tips": "1. Book in Advance, and Skip the Lines.<br>2. At the Airport, Only Use Regular Taxis - Taking a ride with a regular, official taxi is what we would consider a matter of common sense, but you’d be surprised at how many tourists still get lured!<br>3. Save Money on Public Transport - France has good high-speed trains (named TGVs), with very regular connections between Paris, Lyon, Marseille, Strasbourg, and more.<br>4. Discover the Daily Life in Paris - To get a little more of Paris, you must venture where the residents are. So choose one of the lesser-known districts of Paris, put away your map, and just wander.<br>5. Discover Popular Food in Paris - Enjoy French traditional food in any of the Parisian bistros. Stop for a coffee and some people-watching in a cute Parisian cafe. And be sure don’t miss Paris best cakes!"
+  },
+  {
+    "place": "Barcelona",
+    "description": "Barcelona will leave you feeling warm and fuzzy inside. From strolling hand in hand through the old-world streets of the Gothic Quarter to cozying up in the corner of a lively tapas bar, there are plenty of ways to enjoy the city as a couple.",
+    "image": "assets/images/barcelona-spain.jpg",
+    "lat": 41.40449718616649, 
+    "lng": 2.1759463123186724,
+    "mark": "Barcelona",
+    "tips": "1. Walk everywhere - Barcelona is considered one of the world’s most walkable cities thanks to the prescient street-gridding system.<br>2. Gaudí, look up - Barcelona is best known for architectural masterpieces created by its favourite son, Antoni Gaudí, who pioneered a style that combines standard geometry with biomimicry.<br>3. Ditch the sangria - While many associate Spain with sangria, this isn’t the typical choice in Barcelona.<br>4. Keep your bag close - Unfortunately, Barcelona still struggles with a pickpocketing problem, and thieves primarily target travellers<br>5. Run for the hills - You can make a trip to the top of Tibidabo, where Barcelona and the Mediterranean are visible at a greater distance.<br>6. Go for a tour - Joining a walking tour in Barcelona’s old city is a great way to become familiar with the city and its history.<br>7. Look for taxis, not Uber - The popular ride-sharing application and all similar competitors have been banned in Barcelona."
+  },
+  {
+    "place": "Venice",
+    "description": "Venice, city of love, who would doubt it! Love affairs and famous lovers, the entire history of Venice is intimately linked to Cupid. Romanticism and eroticism, sacred love or secular love, Cupid reigns supreme here, always ready to shoot his arrows of intoxicating perfumes.",
+    "image": "assets/images/venice-italy.jpg",
+    "lat": 45.438675395075585, 
+    "lng": 12.332396264611916,
+    "mark": "Venice",
+    "tips":"1. Visit the Bridge of Sighs - One of Venice’s most famous architectural jewels.<br>2. Go to the Venetian Ghetto- Visiting the Jewish District in Venice is one of the top things to do in the city.<br>3. Explore Piazza San Marco.<br>4. Go for aperitivo -  Locals head to bars to order a drink and eat some cicchetti (snacks), a quick and authentic Italian way of having dinner.<br>5. Take a ferry to Murano, Burano and Torcello."
+  }
+]

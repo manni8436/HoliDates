@@ -30,6 +30,8 @@
   
 * [Solved Bugs](#solved-bugs)
 
+* [Unfixed olved Bugs](#unfixed-bugs)
+
 * [Technologies Used](#technologies-used)
   * [Languages](#languages)
   * [Design](#design)
@@ -123,9 +125,18 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### FUTURE IMPLEMENTATIONS
 
++ Add more destinations on Json file;
++ Add google street view map on detail's information modal. 
+
 ## SOLVED BUGS
 
 No major bugs were found during the production of this project, just a few typos and stray tags
+
+## UNFIXED BUGS
+
+Google Maps API markers don't have any label on them, resulting in an error on the Wave report. 
+
+This accessibility bug will be solved in a future release by adding an overlay feature on each marker. 
 
 ## TECHNOLOGIES USED
 
@@ -279,15 +290,16 @@ Lighthouse tools have also been used to ensure SEO and achieve high performance 
 
 ![Lighthouse report](assets/images/lighthouse.jpg)
 
-### DESKTOP
-
-#### Performance
-
 #### Accessibility
 
-#### Best Practices
+The website was verified about accessibility using Wave.
 
-#### SEO
+The report and errors  can be viewed here:
+
+![Wave report](assets/images/wavereport.png)
+
+The nine errors found on this page are related to Google Maps API markers. Those will be fixed in a future release. 
+
 
 ## CONTENT
 
@@ -328,5 +340,6 @@ All text content used in this project can be seen below.
 - [Stack Overflow](https://stackoverflow.com/) as a valuable resource for solving a several issues.
 - [W3schools](https://www.w3schools.com/) for general reference.
 - [Google Developer](https://developers.google.com/maps/documentation) for general reference about google maps API.
+- [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/) base html and css code taken from the Love Running walkthrough, and adapted. 
 
 [Back To Top](#HoliDates)
