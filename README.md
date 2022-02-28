@@ -134,7 +134,9 @@ No major bugs were found during the production of this project, just a few typos
 
 ## UNFIXED BUGS
 
-No major unfixed bugs were found during the accessibility validation. Google Maps API markers don't have any label on them, resulting in an error on the Wave report. This accessibility bug will be solved in a future release by adding an overlay feature on each marker. 
+Google Maps API markers don't have any label on them, resulting in an error on the Wave report. 
+
+This accessibility bug will be solved in a future release by adding an overlay feature on each marker. 
 
 ## TECHNOLOGIES USED
 
