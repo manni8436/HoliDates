@@ -28,8 +28,10 @@ body {
 
 /* headings and paragraphs */
 
-#menu-site-name h1 {
-  color: rgb(157, 16, 16);
+#menu-site-name {
+  color: rgb(156, 16, 16)!important;
+  font-size: 2rem!important;
+
 }
 
 h1,
@@ -62,7 +64,7 @@ p {
   min-height: 100px;
 }
 
-#menu {
+#menu, #menu-site-name{
   font-weight: 600;
   letter-spacing: 4px;
 }
@@ -73,7 +75,7 @@ p {
   margin-left: 25px;
 }
 
-#menu a {
+#menu a, #menu-site-name {
   text-decoration: none;
   font-family: Redressed, sans-serif;
   text-transform: uppercase;
@@ -169,6 +171,16 @@ p {
 @keyframes fade {
   0%,100% { opacity: 0 }
   30%, 70% { opacity: 1 }
+}
+
+@media screen and (max-height: 800px) {
+  .fade-text {
+    font-size: 1.5rem;
+  }
+
+  #quotes {
+    bottom: 10%;
+  }
 }
 
 /* image location containers */
