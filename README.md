@@ -65,11 +65,25 @@
 3.  Be able to check place details when click on map mark;
 4.  Be able to find information about romantic and honeymoon gateways;
 
-#### CLIENT GOALS
+#### USER GOALS
+
+  1. The site needs to be easily accessible.
+  2. The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile.
+  3. Manoeuvreing around the site should be simple and straightforward.
+  4. The site should be informative and all the text should be easy to read.
+  5. The images should be clear and not stretched or squashed.
 
 #### FIRST TIME VISITORS
 
+  1. The site to be self explanatory on how the site is used.
+  2. All the content to be easily read and understandable.
+  3. Google maps to be easy to understand how to be used.
+
 #### RETURNING USER
+
+  1. To find new never been to before destinations.
+  2. Recommend the site to friends and family.
+  3. To get tips and tricks for current holiday destination planned.
 
 ## DESIGN
 
