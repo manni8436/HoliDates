@@ -328,5 +328,6 @@ All text content used in this project can be seen below.
 - [Stack Overflow](https://stackoverflow.com/) as a valuable resource for solving a several issues.
 - [W3schools](https://www.w3schools.com/) for general reference.
 - [Google Developer](https://developers.google.com/maps/documentation) for general reference about google maps API.
+- [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/) base html and css code taken from the Love Running walkthrough, and adapted. 
 
 [Back To Top](#HoliDates)
