@@ -335,6 +335,7 @@ All text content used in this project can be seen below.
 
 + Description
 
+- [Paris](https://www.cometoparis.com/paris-guide/the-10-most-romantic-places-in-paris-s910)
 - [Venice ](https://www.visit-venice-italy.com/history-love-venice-italy.html/)
 - [Salzburg ](https://traveltoaustria.info/romantic-encounters-in-salzburg/)
 - [Barcelona ](https://theculturetrip.com/europe/spain/articles/how-to-spend-the-most-romantic-weekend-in-barcelona/)
