@@ -13,7 +13,7 @@
 
 ## FINAL DESIGN
 
-![Final project image home page]()
+![Final project image home page](assets/images/responsive-image.png)
 
 ## CONTENTS
 
@@ -53,8 +53,6 @@
 [Back To Top](#HoliDates)
 
 ## USER EXPERIENCE
-
-[Back To Top](#HoliDates)
 
 ### USER STORIES
 
