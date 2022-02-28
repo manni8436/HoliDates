@@ -235,6 +235,8 @@ This site was deployed using GitHub Pages with the following the steps below:
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
 
+> Important: don't forget to add your own Google Maps API key. Without it, map won't be displayed
+
 ### HOW TO FORK A REPOSITORY
 
 If you need to make a copy of a repository:
