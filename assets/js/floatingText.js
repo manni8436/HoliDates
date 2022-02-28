@@ -7,6 +7,7 @@ var quotes = [
     "The highlight in Rome for me was the Colosseum - it was breathtaking!"
 ];
 
+// makes the quotes text change
 textSequence(0);
 function textSequence(i) {
 
