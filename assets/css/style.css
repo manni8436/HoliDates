@@ -204,6 +204,10 @@ p {
   justify-content: space-evenly;
 }
 
+.locations-containers {
+  cursor: pointer;
+}
+
 .location-images {
   width: 30%;
   height: 500px;
