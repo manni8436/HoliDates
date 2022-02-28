@@ -103,9 +103,9 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### Navbar 
 
-+ Fixed Navbar with Home, Destination Picker, Getaways and tips options to allow the user easy access to all sections. 
++ Fixed Navbar with Home, Destination Picker, and Getaways options to allow the user easy access to all sections. 
 
-![Fixed Navbar with Home, Destination Picker, Getaways and tips](assets/images/navbar-screenshot.png)
+![Fixed Navbar with Home, Destination Picker, and Getaways](assets/images/navbar-screenshot.png)
 
 + Collapsed navbar on smaller devices to wrap in all options and assure better navbar design.
 
@@ -123,11 +123,11 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ###  Getaways section 
 
-+ Divided into two - Romantic and Honeymoon - users can find several destinations accordingly with their interest. 
++ Divided into two - Weekend and Honeymoon - users can find several destinations accordingly with their interest. 
  
-![Romantic Getaways](assets/images/romantic-getaways-screenshot.png)
+![Weekend Options](assets/images/weekend-options-screenshot.png)
 
-![Honeymoon Getaways](assets/images/honeymoon-getaways-screenshot.png)
+![Honeymoon Options](assets/images/honeymoon-options-screenshot.png)
 
 ### Footer
 
@@ -177,6 +177,10 @@ This accessibility bug will be solved in a future release by adding an overlay f
 #### Firefox Developer Tools
 
 [Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
+
+#### Chrome Developer Tools
+
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used for troubleshooting and trying new visual changes without it affecting the current code.
 
 #### Git
 
