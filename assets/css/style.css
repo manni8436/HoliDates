@@ -9,6 +9,7 @@
 :root {
   --gray: #697177;
   --pink: #F7BFB7;
+  --blue: #10758F;
 }
 
 .dark-text {
@@ -34,7 +35,7 @@ body {
 /* headings and paragraphs */
 
 #menu-site-name {
-  color: rgb(156, 16, 16)!important;
+  color: var(--blue)!important;
   font-size: 2.3rem!important;
 }
 
