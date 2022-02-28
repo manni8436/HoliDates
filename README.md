@@ -242,29 +242,24 @@ If you need to make a local clone:
 
 ### CODE VALIDATORS
 
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
-
 + HTML
 
-  Passing the HTML from index into the W3C Markup Validator no errors or warnings have been found [W3C validator](https://validator.w3.org/).
+  Passing the HTML from index into the (X)HTML5 Validator no errors or warnings have been found [Validator.nu](https://html5.validator.nu/).
   
 Code Validation results:
   
-[Index Page]() <br>
+[Index Page](assets/images/htmlvalidation.jpg) <br>
 
    + CSS
 
-No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
+No errors were found when passing through the official [CSSlint](http://csslint.net). 
 
-6 warnings were found on the validation process. Five of them about custom properties were used to ensure that DRY principle was upheld and all warnings concerns the root colours code and two about imported style sheet from Google Fonts. 
+CSS validation results can be viewed [here](assets/images/cssvalidation.jpg)
 
-CSS validation results can be viewed [here]()
+ 25 (not relevant) warning have been found.
 
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
+CSS validation  warnings can be viewed [here](assets/images/csswarnings.jpg)
+[Index Page](assets/images/htmlvalidation.jpg) <br>
 
 + JavaScript
 
