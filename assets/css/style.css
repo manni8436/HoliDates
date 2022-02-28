@@ -171,6 +171,16 @@ p {
   30%, 70% { opacity: 1 }
 }
 
+@media screen and (max-height: 800px) {
+  .fade-text {
+    font-size: 1.5rem;
+  }
+
+  #quotes {
+    bottom: 10%;
+  }
+}
+
 /* image location containers */
 
 .locations-containers {
