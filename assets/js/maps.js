@@ -1,3 +1,4 @@
+// MAP SECTION
 let map;
 
 // create google maps from api
@@ -20,11 +21,12 @@ function initMap() {
 
   http.send();
 
-  
+  // display map on page load
   http.onload = function () {
     if (this.readyState == 4 && this.status == 200) {
       let places = JSON.parse(this.responseText);
 
+      // get marker locations
       for (let place of places) {
         const coord = {
           lat: place.lat,
@@ -37,7 +39,7 @@ function initMap() {
           map: map,
           
         });
-        // zoom in when click marker
+        // zoom in when click marker and show modal after delay
         marker.addListener("click", () => {
           var pos = map.getZoom();
           map.setZoom(17);
@@ -61,12 +63,15 @@ function initMap() {
           `;
           // open modal after 3 seconds of modal click
           document.querySelector(".modal-content").innerHTML = output;
+          document.getElementById('detailsModal').classList.add('modal-fade-in');
           setTimeout(function() {$('#detailsModal').modal('show');}, 3000);
         });
       }
     }
   };
 }
+
+// LOCATIONS GALLERY
 
 // import the json files and pass them to the respectable function
 fetch('./places.json')
@@ -113,17 +118,18 @@ const showGetaways = (locations) => {
 
 // show all of the honeymoon locations from honeymoon.json
 const showHoneymoon = (locations) => {
-  // takes each location in places.json
+  // takes each location from json file
   locations.forEach(location => {
-    // imports the container from html for all of the locations
+    // imports the container from html for all of the locations so it can be passed to addEachImage fn
     let getaways = document.getElementById('honeymoon-container');
 
     addEachImage(getaways, location);
   });
 };
 
-// display modal with more info when clicking on an image
+// MODAL FOR IMAGES SECTION
 
+// display modal with more info when clicking on an image
 let showModal = (image, place, description, tips) => {
   let modalContent = `
     <div class="modal-header">
