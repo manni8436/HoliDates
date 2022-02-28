@@ -30,6 +30,8 @@
   
 * [Solved Bugs](#solved-bugs)
 
+* [Unfixed olved Bugs](#unfixed-bugs)
+
 * [Technologies Used](#technologies-used)
   * [Languages](#languages)
   * [Design](#design)
@@ -123,9 +125,16 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### FUTURE IMPLEMENTATIONS
 
++ Add more destinations on Json file;
++ Add google street view map on detail's information modal. 
+
 ## SOLVED BUGS
 
 No major bugs were found during the production of this project, just a few typos and stray tags
+
+## UNFIXED BUGS
+
+No major unfixed bugs were found during the accessibility validation. Google Maps API markers don't have any label on them, resulting in an error on the Wave report. This accessibility bug will be solved in a future release by adding an overlay feature on each marker. 
 
 ## TECHNOLOGIES USED
 
@@ -279,15 +288,16 @@ Lighthouse tools have also been used to ensure SEO and achieve high performance 
 
 ![Lighthouse report](assets/images/lighthouse.jpg)
 
-### DESKTOP
-
-#### Performance
-
 #### Accessibility
 
-#### Best Practices
+The website was verified about accessibility using Wave.
 
-#### SEO
+The report and errors  can be viewed here:
+
+![Wave report](assets/images/wavereport.png)
+
+The nine errors found on this page are related to Google Maps API markers. Those will be fixed in a future release. 
+
 
 ## CONTENT
 
