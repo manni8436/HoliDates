@@ -29,7 +29,7 @@ body {
 /* headings and paragraphs */
 
 #menu-site-name h1 {
-  color: rgb(156, 16, 16);
+  color: #9c1010;
 }
 
 h1,
@@ -264,6 +264,38 @@ footer {
 #piped a:last-child:after {
   content: '';
   margin: 0 10px;
+}
+
+/* Go up link */
+
+.go-up {
+  position: sticky;
+  bottom: 0;
+  max-width: 1920px;
+  z-index: 10000000;
+}
+
+.go-up a {
+  background-color: white;
+  border: 5px solid #697177;  
+  border-radius: 6px 6px 0 0;
+  text-decoration: none;
+  font-family: Redressed, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #697177;
+  font-size: 120%;
+}
+
+.go-up a:focus,
+.go-up a:active,
+.go-up a:hover {
+    color: #F7BFB7;
+}
+
+.go-up a:focus,
+.go-up a:active{
+    color: #9c1010;
 }
 
 @media only screen and (max-width: 900px) {
