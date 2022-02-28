@@ -16,7 +16,7 @@ function initMap() {
   // open json file
   let http = new XMLHttpRequest();
 
-  http.open('get', 'places.json', true);
+  http.open('get', 'locationsall.json', true);
 
   http.send();
 
