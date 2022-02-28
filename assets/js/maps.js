@@ -127,7 +127,8 @@ const showHoneymoon = (locations) => {
 let showModal = (image, place, description, tips) => {
   let modalContent = `
     <div class="modal-header">
-      <h2 class="modal-title fw-bold">${place}</h5>                    
+      <h2 class="modal-title fw-bold">${place}</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>                     
     </div>
     <div class="modal-body">
     <img class="w-100" src="${image}" alt="Image of ${place}">
